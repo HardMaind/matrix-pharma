@@ -16,8 +16,8 @@ const RootLayout = ({ children }) => {
   return (
     <Layout>
       <Hero
-        title="India’s leading integrated API manufacturer."
-        imgPath="/assets/images/about-us-hero-img.jpg"
+        title="India's leading integrated API manufacturer."
+        imgPath="/assets/images/about-us.jpg"
       />
 
       <section className="aboutus-creting-excellance">

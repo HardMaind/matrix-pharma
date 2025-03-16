@@ -22,7 +22,7 @@ const HomeHero = ({ title, imgPath, videoPathDesktop, videoPathMobile }) => {
   }, []);
 
   return (
-    <section className={styles.hero}>
+    <section className={`${styles.hero} ${styles.hero_one}`}>
       {/* Desktop and mobile video conditional rendering */}
       <video
         className={styles.backgroundVideo}
