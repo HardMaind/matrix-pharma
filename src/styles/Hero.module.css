@@ -8,7 +8,6 @@
   justify-content: center;
   text-align: center;
   color: white;
-  /* padding: 0 20px; */
   margin-top: -140px;
   z-index: 1;
   position: relative;
@@ -31,15 +30,17 @@
   position: relative;
   overflow: hidden;
 }
+
 .hero::before {
   content: "";
   position: absolute;
-  width: 100vw;
-  /* height: 100%; */
+  width: 100%;
+  height: 100%;
   background-color: var(--color-black);
-  opacity: 0.1;
+  opacity: 0.24;
   z-index: -1;
   top: 0;
+  left: 0;
 }
 
 .heroTitle {

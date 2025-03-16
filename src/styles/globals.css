@@ -1129,6 +1129,12 @@ a {
   width: min(30ch, 100%) !important;
 }
 
+/* About us video */
+
+.aboutus-video video{
+  width:100vw;
+}
+
 @media screen and (max-width: 575px) {
   .aboutus-creting-excellance {
     padding-block: 20px;
