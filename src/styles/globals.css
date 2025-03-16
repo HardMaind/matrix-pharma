@@ -2,35 +2,40 @@
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Light-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Light-WebM.woff2")
+    format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Regular-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Regular-WebM.woff2")
+    format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Medium-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Medium-WebM.woff2")
+    format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Semibold-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Semibold-WebM.woff2")
+    format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Bold-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Bold-WebM.woff2")
+    format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -206,7 +211,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(2.6rem, 0.256vw + 2.518rem, 3rem);
+  font-size: clamp(1.6rem, 1.436vw + 1.313rem, 3rem);
 }
 
 h3 {
@@ -366,7 +371,7 @@ a {
 /* ============================= */
 
 .home-about-us {
-  padding-block: 98px;
+  padding-block: clamp(1rem, 5.256vw + -0.051rem, 6.125rem);
 }
 
 .home-about-us-left {
@@ -712,10 +717,10 @@ a {
 @media screen and (max-width: 1024px) {
   .home-container {
     grid-template-columns: repeat(12, 1fr);
-
+/* 
     h2 {
       font-size: 2.6rem;
-    }
+    } */
   }
 
   .card-1 {
@@ -1004,7 +1009,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  .home-whats-new h2{
+  .home-whats-new h2 {
     text-align: left;
   }
   .whats-new-card-wrapper {
@@ -1277,7 +1282,7 @@ a {
 }
 
 .about-desktop {
-  background-color: #FFFDED;
+  background-color: #fffded;
   padding-top: 104px;
 }
 
@@ -1288,7 +1293,6 @@ a {
 .about-desktop .about-mobile-img {
   display: none;
 }
-
 
 @media screen and (max-width: 768px) {
   .abt-miles-item3-inner-card {
@@ -1412,7 +1416,7 @@ a {
 .light-orange-box {
   width: 72px;
   height: 72px;
-  background-color: #F77C3E;
+  background-color: #f77c3e;
   opacity: 0.27;
   position: absolute;
   bottom: -70px;
@@ -1422,7 +1426,7 @@ a {
 .light-purple-box {
   width: 72px;
   height: 72px;
-  background-color: #BFB4F0;
+  background-color: #bfb4f0;
   opacity: 0.27;
   position: absolute;
   bottom: -140px;
@@ -1461,7 +1465,7 @@ a {
 .light-yellow-box {
   width: 72px;
   height: 72px;
-  background-color: #ED981D;
+  background-color: #ed981d;
   opacity: 0.27;
   position: absolute;
   bottom: -60px;
@@ -1724,7 +1728,6 @@ a {
 .careers-info-data {
   padding-block: 60px;
 }
-
 
 /* Ensure text alignment and responsiveness */
 .careers-matrix h2 {
@@ -2010,7 +2013,7 @@ a {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .careers-info-left {
     grid-column: span 12;
   }
@@ -2020,7 +2023,7 @@ a {
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .career-column-3 .col-span-3 {
     grid-column: span 12;
     margin-bottom: 4rem;
@@ -2044,8 +2047,6 @@ a {
 .career-form-left-col h2 {
   margin-bottom: 40px;
 }
-
-
 
 .career-form-right-col {
   grid-column: 8 / 12;
@@ -2087,7 +2088,7 @@ a {
 .career-form-box3 {
   top: 0;
   right: 0;
-  opacity: 0.20;
+  opacity: 0.2;
 }
 
 .career-form-box4 {
@@ -2137,7 +2138,7 @@ a {
   opacity: 0.05;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .career-form-left-col {
     grid-column: 1 / 12;
   }
@@ -2146,7 +2147,6 @@ a {
     grid-column: 1 / 12;
   }
 }
-
 
 /* ============================= */
 /* Product page styles           */
@@ -2365,7 +2365,6 @@ a {
 
 /* Responsive Fixes */
 @media (max-width: 768px) {
-
   /* Make table scrollable */
   .pharma-products-container {
     overflow-x: auto;
@@ -2623,7 +2622,7 @@ a {
 }
 
 .input-container:hover .input-underline,
-.input:hover~.input-underline {
+.input:hover ~ .input-underline {
   display: block;
   /* width: 100% */
   width: 70%;
