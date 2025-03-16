@@ -87,11 +87,16 @@ const RootLayout = ({ children }) => {
       </video>
 
       {/* Milestones of excellence start*/}
-      <img
-        src="/assets/images/about-desktop-rev.png"
-        alt="about-desktop-rev"
-        style={{ width: "90%" }}
-      />
+      <div className="about-desktop">
+        <img
+          src="/assets/images/about-desktop-rev.png"
+          alt="about-desktop-rev" className="about-desktop-img"
+        />
+        <img
+          src="/assets/images/about-mobile-rev.png"
+          alt="about-mobile-rev" className="about-mobile-img"
+        />
+      </div>
 
       <section className="aboutus-milestones-excellence-container display-none">
         <div className="abt-miles-grid container pd-24">
@@ -180,9 +185,8 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${
-                openProfile === "Anil Kumar Jain" ? "expanded" : ""
-              }`}
+              className={`leadership-description ${openProfile === "Anil Kumar Jain" ? "expanded" : ""
+                }`}
             >
               <p>
                 Mr. Anil Kumar Jain joined Tianish Laboratories, a 100%
@@ -219,7 +223,7 @@ const RootLayout = ({ children }) => {
               src="/assets/images/swathi-reddy.png"
               alt="Swathi Reddy Gunupati"
             />
-            <div className="light-orange-box"></div>
+            <div className="light-orange-box light-orange-box-one"></div>
             <div className="light-purple-box"></div>
           </div>
           <div className="leadership-content">
@@ -237,9 +241,8 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${
-                openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
-              }`}
+              className={`leadership-description ${openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
+                }`}
             >
               <p>
                 Swathi Reddy Gunupati is a dynamic entrepreneur and Chief
@@ -284,9 +287,8 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${
-                openProfile === "G. Pranav Reddy" ? "expanded" : ""
-              }`}
+              className={`leadership-description ${openProfile === "G. Pranav Reddy" ? "expanded" : ""
+                }`}
             >
               <p>
                 Mr. G. Pranav Reddy is a seasoned executive and Promoter
