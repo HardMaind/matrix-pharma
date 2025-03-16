@@ -93,13 +93,13 @@ const MatrixAdvantages = ({ children }) => {
       <section className="matrix">
         <div className="container grid-container matrix-para">
           <div className="col-span-12">
-            <h3>We don't just deliver APIs.</h3>
+            <h3 style={{ fontSize: "35px" }}>We don't just deliver APIs.</h3>
 
             {/* New Grid Row for Better Structure */}
             <div className="grid grid-cols-12 gap-6">
               {/* Left Column - Title */}
               <div className="col-span-4">
-                <h2>
+                <h2 style={{ fontSize: "40px" }}>
                   We deliver a competitive edge
                   <span className="block-text">to our partners.</span>
                 </h2>

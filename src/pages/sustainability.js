@@ -41,7 +41,10 @@ const sustainability = ({ children }) => {
           <div className="col-span-5">
             <img src="/assets/images/sustainability-img1.png" />
           </div>
-          <div className="col-span-6 col-7">
+          <div
+            className="col-span-6 col-7 mb-2"
+            style={{ marginBottom: "100px" }}
+          >
             <h2 className="mg-bottom-large">Resource management</h2>
             <p className="mg-bottom-large">
               We are always seeking to reduce our environmental footprint, while
@@ -75,7 +78,8 @@ const sustainability = ({ children }) => {
               </div>
             </div>
           </div>
-          <div className="col-span-6">
+
+          <div className="col-span-5">
             <h2 className="mg-bottom-large">Waste management and reduction</h2>
             <p className="mg-bottom-large">
               We take a proactive approach to managing and reducing waste across
@@ -115,14 +119,14 @@ const sustainability = ({ children }) => {
               </div>
             </div>
           </div>
-          <div className="col-span-5 col-7">
+          <div className="col-span-5 col-7" style={{ marginBottom: "100px" }}>
             <img src="/assets/images/sustainability-img2.png" />
           </div>
 
           <div className="col-span-5">
             <img src="/assets/images/sustainability-img3.png" />
           </div>
-          <div className="col-span-6 col-7">
+          <div className="col-span-6 col-7" style={{ marginBottom: "100px" }}>
             <h2 className="mg-bottom-large">
               Renewable solar energy initiative
             </h2>
@@ -158,7 +162,8 @@ const sustainability = ({ children }) => {
               </div>
             </div>
           </div>
-          <div className="col-span-6">
+
+          <div className="col-span-5">
             <h2 className="mg-bottom-large">Workplace health and safety</h2>
             <p className="mg-bottom-large">
               At Matrix Pharma Corp, we proactively safeguard our workforce

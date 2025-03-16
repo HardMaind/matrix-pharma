@@ -380,7 +380,7 @@ a {
 }
 
 .home-about-us-right p {
-  font-size: 0.89vw;
+  font-size: 1rem;
   margin-bottom: 84px;
 }
 
@@ -393,7 +393,7 @@ a {
 
 .banner-image img {
   width: 100vw;
-  height: 524px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -782,7 +782,7 @@ a {
 .home-milestone-wrapper h2 {
   font-weight: 400;
   font-size: 2.84rem;
-  margin-bottom: 110px;
+  /* margin-bottom: 110px; */
 }
 
 .home-milestone-right-col {
@@ -850,13 +850,13 @@ a {
 .home-milestone-para {
   width: min(40ch, 100%);
   margin-bottom: 100px;
-  font-size: 1.1vw;
+  font-size: 1rem;
 }
 
 /* Home every action section */
-.home-every-action {
+/* .home-every-action {
   padding-block: 212px;
-}
+} */
 
 .hea-left-content {
   width: min(580px, 100%);
@@ -891,7 +891,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-
+  .hea-right-content video {
+    margin-top: 0px;
+  }
   .hea-left-content,
   .hea-right-content {
     grid-column: 2 / 11;
@@ -922,7 +924,7 @@ a {
 
 .whats-new-card-wrapper p {
   line-height: 1.4em;
-  font-size: 1.2vw;
+  font-size: 1rem;
 }
 
 /* Whats new section start */
@@ -1002,6 +1004,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .home-whats-new h2{
+    text-align: left;
+  }
   .whats-new-card-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2461,9 +2466,9 @@ a {
   position: relative;
 }
 
-.esg-two-col .grid-container {
+/* .esg-two-col .grid-container {
   gap: 120px;
-}
+} */
 
 .esg-visually-box1,
 .esg-visually-box2,

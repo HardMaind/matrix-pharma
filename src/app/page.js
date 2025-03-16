@@ -56,8 +56,16 @@ const HomePage = () => {
       <section>
         <div className="home-advantage-img">
           <Link href="/matrix-advantages">
-          <img className="home-advantage-img-web" src="/assets/images/homepage-advantage-img.png" alt="Our Advantage" />
-          <img className="home-advantage-img-mob" src="/assets/images/homepage-advantage-img-mob.png" alt="Our Advantage" />
+            <img
+              className="home-advantage-img-web"
+              src="/assets/images/homepage-advantage-img.png"
+              alt="Our Advantage"
+            />
+            <img
+              className="home-advantage-img-mob"
+              src="/assets/images/homepage-advantage-img-mob.png"
+              alt="Our Advantage"
+            />
           </Link>
         </div>
       </section>
@@ -72,7 +80,7 @@ const HomePage = () => {
       <section className="home-milestone bg-yellow">
         <div className="container home-milestone-wrapper">
           <div className="text-center">
-            <h2>From molecules to milestones.</h2>
+            <h2 style={{ textAlign: "left" }}>From molecules to milestones.</h2>
           </div>
           <div className="grid-container">
             <div className="col-span-6 home-milestone-flex">

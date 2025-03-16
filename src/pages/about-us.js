@@ -3,8 +3,7 @@ import "../styles/globals.css";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import { useState } from "react";
-import styles from '../styles/Hero.module.css';
-
+import styles from "../styles/Hero.module.css";
 
 const RootLayout = ({ children }) => {
   const [openProfile, setOpenProfile] = useState(null);
@@ -80,19 +79,19 @@ const RootLayout = ({ children }) => {
       </section>
       {/*About Us Vision, Purpose, Values */}
 
-      <video
-        autoPlay
-        muted
-        loop
-      >
-        <source src="/assets/videos/matrix-pharma-corp-Interview-video.mp4" type="video/mp4" />
+      <video autoPlay controls >
+        <source
+          src="/assets/videos/matrix-pharma-corp-Interview-video.mp4"
+          type="video/mp4"
+        />
       </video>
 
       {/* Milestones of excellence start*/}
-      <div className="about-desktop">
-        <img src="/assets/images/about-desktop-rev.png" alt="about-desktop-rev" className="about-desktop-img" />
-        <img src="/assets/images/about-mobile-rev.png" alt="about-desktop-rev" className="about-mobile-img" />
-      </div>
+      <img
+        src="/assets/images/about-desktop-rev.png"
+        alt="about-desktop-rev"
+        style={{ width: "90%" }}
+      />
 
       <section className="aboutus-milestones-excellence-container display-none">
         <div className="abt-miles-grid container pd-24">
@@ -133,11 +132,15 @@ const RootLayout = ({ children }) => {
           </div>
           <div className="abt-miles-item5">
             <h3 className="font-ec">64 million</h3>
-            <p className="mb-0">lives touched by making ARV drugs affordable and accessible.</p>
+            <p className="mb-0">
+              lives touched by making ARV drugs affordable and accessible.
+            </p>
           </div>
           <div className="abt-miles-item6">
             <h3 className="font-ec">Zero-liquid discharge</h3>
-            <p className="mb-0">and pharmaceutical waste recycling for a healthier planet.</p>
+            <p className="mb-0">
+              and pharmaceutical waste recycling for a healthier planet.
+            </p>
           </div>
           <div className="abt-miles-item7">
             <h3 className="font-ec">EcoVadis</h3>
@@ -177,8 +180,9 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${openProfile === "Anil Kumar Jain" ? "expanded" : ""
-                }`}
+              className={`leadership-description ${
+                openProfile === "Anil Kumar Jain" ? "expanded" : ""
+              }`}
             >
               <p>
                 Mr. Anil Kumar Jain joined Tianish Laboratories, a 100%
@@ -233,8 +237,9 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
-                }`}
+              className={`leadership-description ${
+                openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
+              }`}
             >
               <p>
                 Swathi Reddy Gunupati is a dynamic entrepreneur and Chief
@@ -279,8 +284,9 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${openProfile === "G. Pranav Reddy" ? "expanded" : ""
-                }`}
+              className={`leadership-description ${
+                openProfile === "G. Pranav Reddy" ? "expanded" : ""
+              }`}
             >
               <p>
                 Mr. G. Pranav Reddy is a seasoned executive and Promoter
@@ -305,7 +311,6 @@ const RootLayout = ({ children }) => {
         </div>
         <div className="light-purple-box light-purple-box2"></div>
         <div className="light-orange-box light-orange-box2"></div>
-
       </section>
     </Layout>
   );

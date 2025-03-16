@@ -129,44 +129,54 @@
 
 .navLinks a {
   display: flex;
-  gap:14px;
+  gap: 14px;
 }
-
 @media screen and (min-width: 768px) {
   .navLinks {
     transform: translateX(-28vw);
+  }
+
+  .arrowPart1,
+  .arrowPart2,
+  .arrowPart3,
+  .block1,
+  .block2 {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: rgb(255, 254, 255);
+  }
+  .arrowPart1 {
+    left: 0;
+    bottom: 70px;
+    opacity: 0.13;
+  }
+  .arrowPart2 {
+    left: 0;
+    bottom: 0;
+    opacity: 0.26;
+  }
+  .arrowPart3 {
+    left: 70px;
+    bottom: 0;
+    opacity: 0.13;
+  }
+  .block1 {
+    left: 240px;
+    bottom: 0;
+    opacity: 0.19;
+  }
+  .block2 {
+    left: 310px;
+    bottom: 70px;
+    opacity: 0.13;
+  }
 }
 
-.arrowPart1, .arrowPart2, .arrowPart3, .block1, .block2 {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  background-color: rgb(255, 254, 255);
-}
-.arrowPart1 {
-  left:0;
-  bottom:70px;
-  opacity: 0.13;
-}
-.arrowPart2 {
-  left:0;
-  bottom:0;
-  opacity: 0.26;
-}
-.arrowPart3 {
-  left:70px;
-  bottom:0;
-  opacity: 0.13;
-}
-.block1 {
-  left:240px;
-  bottom:0;
-  opacity: 0.19;
-}
-.block2{
-  left:310px;
-  bottom:70px;
-  opacity: 0.13;
-}
+@media screen and(max-width:768px) {
+  .menu {
+    outline: 1px solid black;
+    align-items: flex-start !important  ;
+  }
 }
