@@ -69,7 +69,7 @@
     margin-top: -21px;
   }
   .hero {
-    height: auto;
+    height: 383px;
     margin-top: 0;
   }
   .heroTitle {
@@ -157,5 +157,12 @@
   .textRight,
   .textLeft {
     display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .heroTitle {
+    margin-top: 50px;
+    line-height: 26px;
   }
 }
