@@ -854,9 +854,9 @@ a {
 }
 
 /* Home every action section */
-/* .home-every-action {
-  padding-block: 212px;
-} */
+.home-every-action {
+  padding-block: 160px;
+}
 
 .hea-left-content {
   width: min(580px, 100%);
