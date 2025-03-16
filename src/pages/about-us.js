@@ -79,7 +79,7 @@ const RootLayout = ({ children }) => {
       </section>
       {/*About Us Vision, Purpose, Values */}
 
-      <video autoPlay controls>
+      <video autoPlay controls poster="/assets/images/matrix-pharma-poster.jpg">
         <source
           src="/assets/videos/matrix-pharma-corp-Interview-video.mp4"
           type="video/mp4"

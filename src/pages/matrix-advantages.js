@@ -2,6 +2,8 @@
 import "../styles/globals.css";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import DetailForm from "@/components/DetailForm";
+
 
 const MatrixAdvantages = ({ children }) => {
   {
@@ -93,13 +95,13 @@ const MatrixAdvantages = ({ children }) => {
       <section className="matrix">
         <div className="container grid-container matrix-para">
           <div className="col-span-12">
-            <h3 style={{ fontSize: "35px" }}>We don't just deliver APIs.</h3>
+            <h3>We don't just deliver APIs.</h3>
 
             {/* New Grid Row for Better Structure */}
             <div className="grid grid-cols-12 gap-6">
               {/* Left Column - Title */}
               <div className="col-span-4">
-                <h2 style={{ fontSize: "40px" }}>
+                <h2>
                   We deliver a competitive edge
                   <span className="block-text">to our partners.</span>
                 </h2>
@@ -125,7 +127,7 @@ const MatrixAdvantages = ({ children }) => {
       {/*matrix decsription start */}
       {matrixDataArray.map((matrixData, index) => (
         <section key={index} className="container matrix-advantage-columns">
-          <div className="grid-container pd-24">
+          <div className="grid-container pd-24 pd-4">
             <div className="col-span-5 matrix-advantage-img">
               <img
                 src={matrixData.image}
@@ -153,6 +155,39 @@ const MatrixAdvantages = ({ children }) => {
       ))}
       {/* Matrix Description Sections End */}
       {/*matrix decsription end */}
+
+      {/* career form starts*/}
+      <section className="career-form-section">
+        <div className="container career-form-wrapper grid-container">
+          <div className="career-form-left-col career-form-left-col1">
+            <h2 className="text-white">
+              Unlock the advantages of partnering
+              with Matrix Pharma Corp.
+            </h2>
+            <p className="text-white">
+              Enter your details and we'll get in touch with you.
+            </p>
+          </div>
+          <div className="career-form-right-col mt-30">
+            <DetailForm />
+          </div>
+        </div>
+        {/* All bg boxes */}
+        <div class="career-box-container">
+          <span class="career-form-box1" aria-hidden="true"></span>
+          <span class="career-form-box2" aria-hidden="true"></span>
+          <span class="career-form-box3" aria-hidden="true"></span>
+          <span class="career-form-box4" aria-hidden="true"></span>
+          <span class="career-form-box5" aria-hidden="true"></span>
+          <span class="career-form-box6" aria-hidden="true"></span>
+          <span class="career-form-box7" aria-hidden="true"></span>
+          <span class="career-form-box8" aria-hidden="true"></span>
+          <span class="career-form-box9" aria-hidden="true"></span>
+          <span class="career-form-box10" aria-hidden="true"></span>
+          <span class="career-form-box11" aria-hidden="true"></span>
+        </div>
+      </section>
+      {/* career form starts*/}
     </Layout>
   );
 };
