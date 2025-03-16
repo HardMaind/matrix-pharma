@@ -133,10 +133,10 @@ const sustainability = ({ children }) => {
 
          <section className="esg-two-col">
          <div className="container grid-container">
-          <div className="col-span-5 esg-order1">
+          <div className="col-span-5">
             <img src="/assets/images/sustainability-img3.png" />
           </div>
-          <div className="col-span-6 col-7 esg-order2" style={{ marginBottom: "100px" }}>
+          <div className="col-span-6 col-7" style={{ marginBottom: "100px" }}>
             <h2 className="mg-bottom-large">
               Renewable solar energy initiative
             </h2>

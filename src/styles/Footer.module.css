@@ -29,6 +29,26 @@ font-weight: 400;
 font-size:19px;
 }
 
+.footerLinks a  {
+  position: relative; 
+  display: inline-block; 
+}
+
+.footerLinks a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  background-color: var(--color-white);
+  width: 0;
+  transition: width 0.25s cubic-bezier(.215, .61, .355, 1);
+}
+
+.footerLinks a:hover:after {
+  width: 100%; 
+}
+
 .footerLinks li {
   text-align: left;
 }
