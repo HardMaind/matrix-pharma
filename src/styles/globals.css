@@ -2,40 +2,35 @@
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Light-WebM.woff2")
-    format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Light-WebM.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Regular-WebM.woff2")
-    format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Regular-WebM.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Medium-WebM.woff2")
-    format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Medium-WebM.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Semibold-WebM.woff2")
-    format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Semibold-WebM.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Bold-WebM.woff2")
-    format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Bold-WebM.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -899,9 +894,11 @@ a {
   .home-milestone-right-col li {
     padding-inline: 6px;
   }
+
   .hea-right-content video {
     margin-top: 0px;
   }
+
   .hea-left-content,
   .hea-right-content {
     grid-column: 2 / 11;
@@ -1015,6 +1012,7 @@ a {
   .home-whats-new h2 {
     text-align: left;
   }
+
   .whats-new-card-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1079,16 +1077,16 @@ a {
   z-index: 2;
 }
 
+.aboutus-vision p {
+  font-size: 18px;
+  color: #58595b;
+}
+
 @media screen and (max-width: 768px) {
   .aboutus-vision h3 {
     font-size: 2.6rem;
     margin-bottom: 16px;
   }
-}
-
-.aboutus-vision p {
-  font-size: 1.125rem;
-  color: #58595b;
 }
 
 .aboutus-vision .col-span-4 {
@@ -1128,6 +1126,45 @@ a {
 
 .our-purpose-text {
   width: min(30ch, 100%) !important;
+}
+
+@media screen and (max-width: 575px) {
+  .aboutus-creting-excellance {
+    padding-block: 20px;
+  }
+
+  .aboutus-creting-excellance p {
+    font-size: 15px;
+  }
+
+  .mg-bottom-large {
+    margin-bottom: 30px;
+  }
+
+  .aboutus-vision .col-span-4 {
+    padding: 0px 12px;
+  }
+
+  .aboutus-vision p {
+    font-size: 15px;
+  }
+
+  .visually-box1,
+  .visually-box2,
+  .visually-box3 {
+    width: 60px;
+    height: 60px;
+    top: -26px;
+    left: 0;
+  }
+
+  .our-purpose-text {
+    width: auto !important;
+  }
+
+  .aboutus-vision {
+    padding: 40px 0;
+  }
 }
 
 /* About Us Vision, Purpose, Values */
@@ -1293,6 +1330,7 @@ a {
   display: block;
   max-width: 90%;
 }
+
 .about-desktop .about-mobile-img {
   display: none;
 }
@@ -1328,9 +1366,15 @@ a {
   .abt-miles-item7 {
     padding: 20px;
   }
+
+  .about-desktop {
+    padding-top: 42px;
+  }
+
   .about-desktop .about-desktop-img {
     display: none;
   }
+
   .about-desktop .about-mobile-img {
     display: block;
   }
@@ -1491,7 +1535,6 @@ a {
 @media screen and (max-width: 768px) {
   .leadership-profile {
     grid-template-columns: 1fr;
-    text-align: center;
     gap: 20px;
   }
 
@@ -1503,6 +1546,52 @@ a {
   .leadership-image img {
     max-width: 250px;
     margin: 0 auto;
+  }
+
+  .pd-24 {
+    padding-inline: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .leadership-image img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .leadership-profile {
+    margin: 0;
+  }
+
+  .light-orange-box,
+  .light-purple-box {
+    width: 30px;
+    height: 30px;
+  }
+
+  .light-orange-box {
+    left: -30px;
+    bottom: 0;
+  }
+
+  .light-orange-box-one {
+    top: -30px;
+    right: 0;
+    left: auto;
+  }
+
+  .light-purple-box {
+    top: 0;
+    right: -30px;
+    left: auto;
+  }
+
+  .light-purple-box1 {
+    left: -30px;
+    top: -30px;
+    right: auto;
   }
 }
 
@@ -2368,6 +2457,7 @@ a {
 
 /* Responsive Fixes */
 @media (max-width: 768px) {
+
   /* Make table scrollable */
   .pharma-products-container {
     overflow-x: auto;
@@ -2543,6 +2633,12 @@ a {
   }
 }
 
+@media (max-width:425px) {
+  .leadership-name-designation h4 {
+    font-size: 20px;
+  }
+}
+
 .office-card {
   width: 100%;
 }
@@ -2625,7 +2721,7 @@ a {
 }
 
 .input-container:hover .input-underline,
-.input:hover ~ .input-underline {
+.input:hover~.input-underline {
   display: block;
   /* width: 100% */
   width: 70%;
