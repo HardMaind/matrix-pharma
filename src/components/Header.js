@@ -13,9 +13,7 @@ const Header = () => {
         <div className={styles.headerInner}>
           {/* Logo */}
           <h1 className={styles.logo}>
-            <Link href="/" passHref>
             <MatrixLogo />
-            </Link>
           </h1>
 
           {/* Menu Toggle Component (Handles Nav & Overlay) */}
