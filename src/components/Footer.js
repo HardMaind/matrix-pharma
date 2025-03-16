@@ -31,13 +31,13 @@ const Footer = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">About Us</Link>
+              <Link href="/about-us">About Us</Link>
             </li>
             <li>
-              <Link href="/">Products</Link>
+              <Link href="/our-product">Products</Link>
             </li>
             <li>
-              <Link href="/">Matrix Advantages</Link>
+              <Link href="/matrix-advantages">Matrix Advantages</Link>
             </li>
           </ul>
         </div>
@@ -46,16 +46,16 @@ const Footer = () => {
         <div className={`${styles.footerCol3}`}>
           <ul className={`${styles.footerLinks}`}>
             <li>
-              <Link href="/">Sustainability</Link>
+              <Link href="/sustainability">Sustainability</Link>
             </li>
             <li>
               <Link href="/">News</Link>
             </li>
             <li>
-              <Link href="/">Careers</Link>
+              <Link href="/careers">Careers</Link>
             </li>
             <li>
-              <Link href="/">Contact us</Link>
+              <Link href="/contact-us">Contact us</Link>
             </li>
           </ul>
         </div>

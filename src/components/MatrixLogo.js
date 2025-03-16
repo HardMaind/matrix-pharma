@@ -17,8 +17,8 @@ const MatrixLogo = () => {
     <Image
       src={isMobile ? "/matrix-pharma-logo.png" : "/matrix-pharma.svg"}
       alt="Matrix Pharma Logo"
-      width={isMobile ? 180 : 280}
-      height={isMobile ? 50 : 60}
+      width={isMobile ? 211 : 280}
+      height={isMobile ? 40 : 60}
       priority
     />
   );

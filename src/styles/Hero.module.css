@@ -15,7 +15,7 @@
   overflow: hidden;
 }
 
-.hero_one{
+.hero_one {
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -58,8 +58,14 @@
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .hero_one video{
-    margin-top:25px
+  .home-hero-container {
+    margin-top: 120px;
+  }
+  .hero_one video {
+    margin-top: 25px;
+  }
+  .hero_one {
+    height: auto;
   }
   .hero {
     height: auto;

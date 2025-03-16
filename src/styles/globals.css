@@ -717,7 +717,7 @@ a {
 @media screen and (max-width: 1024px) {
   .home-container {
     grid-template-columns: repeat(12, 1fr);
-/* 
+    /* 
     h2 {
       font-size: 2.6rem;
     } */
@@ -896,6 +896,9 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .home-milestone-right-col li {
+    padding-inline: 6px;
+  }
   .hea-right-content video {
     margin-top: 0px;
   }

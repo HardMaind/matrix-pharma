@@ -180,3 +180,9 @@
     align-items: flex-start !important  ;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .menu {
+    align-items: flex-start;
+  }
+}
