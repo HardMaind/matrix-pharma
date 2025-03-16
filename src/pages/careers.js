@@ -154,10 +154,12 @@ const careers = ({ children }) => {
         <div className="container career-form-wrapper grid-container">
           <div className="career-form-left-col">
             <h2 className="text-white">
-              Youe next opportunity awaits.<br></br>
-              Apply Now!
+              Your next opportunity awaits.
             </h2>
             <p className="text-white">Are you ready to be part of a company that is redefining pharmaceutical excellence? Ecplore our current jobs openings and take the next step in your career with Matrix Pharma Corp.</p>
+            <h2 className="text-white">
+            Apply now!
+            </h2>
             <p className="text-white">We are always looking for passionate individuals to join our team. Submit your application by uploading your CV.</p>
           </div>
           <div className="career-form-right-col">
