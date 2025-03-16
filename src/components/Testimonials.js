@@ -50,12 +50,12 @@ const TestimonialSlider = () => {
         <Swiper
           slidesPerView={2.3}
           spaceBetween={20}
-          pagination={{
-            clickable: true,
-            el: ".swiper-pagination",
-            renderBullet: (index, className) =>
-              `<span class="${className}" aria-label="Go to testimonial ${index + 1}">[${index + 1}]</span>`,
-          }}
+          // pagination={{
+          //   clickable: true,
+          //   el: ".swiper-pagination",
+          //   renderBullet: (index, className) =>
+          //     `<span class="${className}" aria-label="Go to testimonial ${index + 1}">[${index + 1}]</span>`,
+          // }}
           breakpoints={{
             320: { slidesPerView: 1, spaceBetween: 10 },
             768: { slidesPerView: 1.5, spaceBetween: 15 },

@@ -3,7 +3,6 @@
 
 import Layout from "../components/Layout";
 import HomeHero from "../components/HomeHero";
-import Testimonials from "../components/Testimonials";
 import Link from "next/link";
 import Image from "next/image";
 import IconLink from "../components/IconLink";
@@ -215,8 +214,6 @@ const HomePage = () => {
       </section>
       {/* Home every action section end */}
 
-      {/* Testimonials section  */}
-      <Testimonials />
       {/* Whats new section start*/}
       <section className="home-whats-new">
         <div className="container">

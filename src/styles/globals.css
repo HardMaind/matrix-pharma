@@ -1271,6 +1271,20 @@ a {
   display: none;
 }
 
+.about-desktop {
+  background-color: #FFFDED;
+  padding-top: 104px;
+}
+
+.about-desktop .about-desktop-img {
+  display: block;
+  max-width: 90%;
+}
+.about-desktop .about-mobile-img {
+  display: none;
+}
+
+
 @media screen and (max-width: 768px) {
   .abt-miles-item3-inner-card {
     position: relative;
@@ -1301,6 +1315,12 @@ a {
   .abt-miles-item6,
   .abt-miles-item7 {
     padding: 20px;
+  }
+  .about-desktop .about-desktop-img {
+    display: none;
+  }
+  .about-desktop .about-mobile-img {
+    display: block;
   }
 }
 
@@ -1447,6 +1467,12 @@ a {
   .leadership-profile {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+  }
+
+  .light-purple-box3,
+  .light-orange-box3,
+  .light-yellow-box {
+    display: none;
   }
 }
 

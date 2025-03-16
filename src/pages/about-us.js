@@ -89,7 +89,10 @@ const RootLayout = ({ children }) => {
       </video>
 
       {/* Milestones of excellence start*/}
-      <img src="/assets/images/about-desktop-rev.png" alt="about-desktop-rev" />
+      <div className="about-desktop">
+        <img src="/assets/images/about-desktop-rev.png" alt="about-desktop-rev" className="about-desktop-img" />
+        <img src="/assets/images/about-mobile-rev.png" alt="about-desktop-rev" className="about-mobile-img" />
+      </div>
 
       <section className="aboutus-milestones-excellence-container display-none">
         <div className="abt-miles-grid container pd-24">
