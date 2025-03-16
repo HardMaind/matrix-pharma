@@ -2,35 +2,40 @@
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Light-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Light-WebM.woff2")
+    format("woff2");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Regular-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Regular-WebM.woff2")
+    format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Medium-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Medium-WebM.woff2")
+    format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Semibold-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Semibold-WebM.woff2")
+    format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "EuclidCircular";
-  src: url("/fonts/EuclidCircular/EuclidCircularA-Bold-WebM.woff2") format("woff2");
+  src: url("/fonts/EuclidCircular/EuclidCircularA-Bold-WebM.woff2")
+    format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -1431,7 +1436,7 @@ a {
   position: relative;
 }
 
-.leadership-profile:last-child {
+.leadership-profile1 {
   padding-bottom: 80px;
 }
 
@@ -1498,14 +1503,14 @@ a {
 }
 
 .light-purple-box3 {
-  right: -82px;
-  bottom: 80px;
+  right: 72px;
+  bottom: 72px;
   left: auto;
 }
 
 .light-orange-box3 {
-  right: -152px;
-  bottom: 10px;
+  right: 0;
+  bottom: 0px;
   left: auto;
 }
 
@@ -1515,8 +1520,18 @@ a {
   background-color: #ed981d;
   opacity: 0.27;
   position: absolute;
-  bottom: -60px;
-  right: -82px;
+  bottom: -72px;
+  right: 72px;
+}
+
+.three-color {
+  position: absolute;
+  top: 780px;
+  right: 0px;
+}
+
+.two-colors{
+  display: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1525,11 +1540,11 @@ a {
     gap: 40px;
   }
 
-  .light-purple-box3,
+  /* .light-purple-box3,
   .light-orange-box3,
   .light-yellow-box {
     display: none;
-  }
+  } */
 }
 
 @media screen and (max-width: 768px) {
@@ -1558,15 +1573,21 @@ a {
     max-width: 100%;
     margin: 0 auto;
   }
-}
-
-@media screen and (max-width: 425px) {
+  .about-leadership-container {
+    padding: 40px 30px;
+  }
+  .leadership-section {
+    padding-bottom: 28px;
+  }
   .leadership-profile {
     margin: 0;
   }
-
+  .three-color {
+    top: 140px;
+  }
   .light-orange-box,
-  .light-purple-box {
+  .light-purple-box,
+  .light-yellow-box {
     width: 30px;
     height: 30px;
   }
@@ -1593,6 +1614,35 @@ a {
     top: -30px;
     right: auto;
   }
+  .light-orange-box3 {
+    right: 30px;
+    bottom: -60px;
+    left: auto;
+  }
+  .light-purple-box3 {
+    right: 0px;
+    bottom: 60px;
+  }
+  .light-yellow-box {
+    right: 0px;
+    bottom: -90px;
+  }
+  .light-purple-box2{
+    top: auto;
+    bottom: 30px;
+    right: -60px;
+  }
+  .light-orange-box2{
+    right: -30px;
+    left: auto;
+    bottom: 0;
+  }
+  .two-color{
+    display: none;
+  }
+  .two-colors{
+    display: block;
+  }
 }
 
 /*About Us Leadership Team End */
@@ -1600,17 +1650,20 @@ a {
 .leadership-name-designation {
   display: flex;
   justify-content: space-between;
+  align-items: start;
 }
 
 /* Show the accordion toggle button only on mobile and tablet */
 .accordion-toggle-icon {
   background: none;
   border: none;
-  font-size: 18px;
+  font-size: 50px;
   cursor: pointer;
   margin-left: 10px;
-  font-weight: bold;
   display: none;
+  padding: 0;
+  line-height: 1;
+  color: #f04f3f;
   /* Initially hide on desktop */
 }
 
@@ -1641,6 +1694,18 @@ a {
   /* Hide the accordion button on desktop */
   .accordion-toggle-icon {
     display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .leadership-profile {
+    padding-bottom: 80px;
+  }
+  .leadership-profile1 {
+    padding-bottom: 20px;
+  }
+  .leadership-description p {
+    font-size: 14px;
   }
 }
 
@@ -2457,7 +2522,6 @@ a {
 
 /* Responsive Fixes */
 @media (max-width: 768px) {
-
   /* Make table scrollable */
   .pharma-products-container {
     overflow-x: auto;
@@ -2633,7 +2697,7 @@ a {
   }
 }
 
-@media (max-width:425px) {
+@media (max-width: 425px) {
   .leadership-name-designation h4 {
     font-size: 20px;
   }
@@ -2721,7 +2785,7 @@ a {
 }
 
 .input-container:hover .input-underline,
-.input:hover~.input-underline {
+.input:hover ~ .input-underline {
   display: block;
   /* width: 100% */
   width: 70%;

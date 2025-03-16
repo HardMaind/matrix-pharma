@@ -79,7 +79,7 @@ const RootLayout = ({ children }) => {
       </section>
       {/*About Us Vision, Purpose, Values */}
 
-      <video autoPlay controls >
+      <video autoPlay controls>
         <source
           src="/assets/videos/matrix-pharma-corp-Interview-video.mp4"
           type="video/mp4"
@@ -90,11 +90,13 @@ const RootLayout = ({ children }) => {
       <div className="about-desktop">
         <img
           src="/assets/images/about-desktop-rev.png"
-          alt="about-desktop-rev" className="about-desktop-img"
+          alt="about-desktop-rev"
+          className="about-desktop-img"
         />
         <img
           src="/assets/images/about-mobile-rev.png"
-          alt="about-mobile-rev" className="about-mobile-img"
+          alt="about-mobile-rev"
+          className="about-mobile-img"
         />
       </div>
 
@@ -185,8 +187,9 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${openProfile === "Anil Kumar Jain" ? "expanded" : ""
-                }`}
+              className={`leadership-description ${
+                openProfile === "Anil Kumar Jain" ? "expanded" : ""
+              }`}
             >
               <p>
                 Mr. Anil Kumar Jain joined Tianish Laboratories, a 100%
@@ -211,9 +214,6 @@ const RootLayout = ({ children }) => {
               </p>
             </div>
           </div>
-          <div className="light-purple-box light-purple-box3"></div>
-          <div className="light-orange-box light-orange-box3"></div>
-          <div className="light-yellow-box"></div>
         </div>
 
         {/* Leadership Profile: Swathi Reddy Gunupati */}
@@ -241,8 +241,9 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
-                }`}
+              className={`leadership-description ${
+                openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
+              }`}
             >
               <p>
                 Swathi Reddy Gunupati is a dynamic entrepreneur and Chief
@@ -267,10 +268,14 @@ const RootLayout = ({ children }) => {
         </div>
 
         {/* Leadership Profile: G. Pranav Reddy */}
-        <div className="container leadership-profile">
+        <div className="container leadership-profile leadership-profile1">
           <div className="leadership-image">
             <img src="/assets/images/pranav-reddy.png" alt="G. Pranav Reddy" />
             <div className="light-purple-box light-purple-box1"></div>
+            <div className="two-colors">
+              <div className="light-purple-box light-purple-box2"></div>
+              <div className="light-orange-box light-orange-box2"></div>
+            </div>
           </div>
           <div className="leadership-content">
             <div className="leadership-name-designation">
@@ -287,8 +292,9 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${openProfile === "G. Pranav Reddy" ? "expanded" : ""
-                }`}
+              className={`leadership-description ${
+                openProfile === "G. Pranav Reddy" ? "expanded" : ""
+              }`}
             >
               <p>
                 Mr. G. Pranav Reddy is a seasoned executive and Promoter
@@ -311,8 +317,17 @@ const RootLayout = ({ children }) => {
             </div>
           </div>
         </div>
-        <div className="light-purple-box light-purple-box2"></div>
-        <div className="light-orange-box light-orange-box2"></div>
+
+        <div className="three-color">
+          <div className="light-purple-box light-purple-box3"></div>
+          <div className="light-orange-box light-orange-box3"></div>
+          <div className="light-yellow-box"></div>
+        </div>
+
+        <div className="two-color">
+          <div className="light-purple-box light-purple-box2"></div>
+          <div className="light-orange-box light-orange-box2"></div>
+        </div>
       </section>
     </Layout>
   );
