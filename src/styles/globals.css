@@ -371,7 +371,7 @@ a {
 /* ============================= */
 
 .home-about-us {
-  padding-block: clamp(1rem, 5.256vw + -0.051rem, 6.125rem);
+  padding-block: clamp(4rem, 5.256vw + -0.051rem, 6.125rem);
 }
 
 .home-about-us-left {
@@ -787,7 +787,7 @@ a {
 .home-milestone-wrapper h2 {
   width:100%;
   font-weight: 400;
-  margin-bottom: 110px;
+  margin-bottom: clamp(2.5rem, 4.487vw + 1.603rem, 6.875rem);
 }
 
 .home-milestone-right-col {
@@ -854,13 +854,13 @@ a {
 
 .home-milestone-para {
   width: min(40ch, 100%);
-  margin-bottom: 100px;
+  margin-bottom: clamp(2.5rem, 3.846vw + 1.731rem, 6.25rem);
   font-size: 1rem;
 }
 
 /* Home every action section */
 .home-every-action {
-  padding-block: 160px;
+  padding-block: clamp(2rem, 8.205vw + 0.359rem, 10rem);
 }
 
 .hea-left-content {
@@ -868,8 +868,11 @@ a {
 }
 
 .home-every-action h2 {
-  /* font-size: 2.8rem; */
   margin-bottom: 40px;
+}
+
+.home-every-action-wrapper {
+  row-gap: 40px;
 }
 
 .home-every-action p {
@@ -940,7 +943,7 @@ a {
 /* Whats new section start */
 
 .home-whats-new {
-  padding-block: 96px 115px;
+  padding-block: clamp(2rem, 4.103vw + 1.179rem, 6rem)  clamp(2.4rem, 4.911vw + 1.418rem, 7.188rem);
 }
 
 .home-whats-new h2 {
