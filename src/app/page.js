@@ -3,7 +3,7 @@
 
 import Layout from "../components/Layout";
 import HomeHero from "../components/HomeHero";
-import TestimonialSlider from "../components/Testimonials";
+import Testimonials from "../components/Testimonials";
 import Link from "next/link";
 import Image from "next/image";
 import IconLink from "../components/IconLink";

@@ -3,6 +3,8 @@ import "../styles/globals.css";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import { useState } from "react";
+import styles from '../styles/Hero.module.css';
+
 
 const RootLayout = ({ children }) => {
   const [openProfile, setOpenProfile] = useState(null);
@@ -78,8 +80,18 @@ const RootLayout = ({ children }) => {
       </section>
       {/*About Us Vision, Purpose, Values */}
 
+      <video
+        autoPlay
+        muted
+        loop
+      >
+        <source src="/assets/videos/matrix-pharma-corp-Interview-video.mp4" type="video/mp4" />
+      </video>
+
       {/* Milestones of excellence start*/}
-      <section className="aboutus-milestones-excellence-container">
+      <img src="/assets/images/about-desktop-rev.png" alt="about-desktop-rev" />
+
+      <section className="aboutus-milestones-excellence-container display-none">
         <div className="abt-miles-grid container pd-24">
           <div className="abt-miles-item1">
             <h2 className="text-white">
@@ -145,6 +157,7 @@ const RootLayout = ({ children }) => {
               src="/assets/images/anil-kumar-jain.png"
               alt="Anil Kumar Jain"
             />
+            <div className="light-orange-box"></div>
           </div>
           <div className="leadership-content">
             <div className="leadership-name-designation">
@@ -161,9 +174,8 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${
-                openProfile === "Anil Kumar Jain" ? "expanded" : ""
-              }`}
+              className={`leadership-description ${openProfile === "Anil Kumar Jain" ? "expanded" : ""
+                }`}
             >
               <p>
                 Mr. Anil Kumar Jain joined Tianish Laboratories, a 100%
@@ -188,6 +200,9 @@ const RootLayout = ({ children }) => {
               </p>
             </div>
           </div>
+          <div className="light-purple-box light-purple-box3"></div>
+          <div className="light-orange-box light-orange-box3"></div>
+          <div className="light-yellow-box"></div>
         </div>
 
         {/* Leadership Profile: Swathi Reddy Gunupati */}
@@ -197,6 +212,8 @@ const RootLayout = ({ children }) => {
               src="/assets/images/swathi-reddy.png"
               alt="Swathi Reddy Gunupati"
             />
+            <div className="light-orange-box"></div>
+            <div className="light-purple-box"></div>
           </div>
           <div className="leadership-content">
             <div className="leadership-name-designation">
@@ -213,9 +230,8 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${
-                openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
-              }`}
+              className={`leadership-description ${openProfile === "Swathi Reddy Gunupati" ? "expanded" : ""
+                }`}
             >
               <p>
                 Swathi Reddy Gunupati is a dynamic entrepreneur and Chief
@@ -243,6 +259,7 @@ const RootLayout = ({ children }) => {
         <div className="container leadership-profile">
           <div className="leadership-image">
             <img src="/assets/images/pranav-reddy.png" alt="G. Pranav Reddy" />
+            <div className="light-purple-box light-purple-box1"></div>
           </div>
           <div className="leadership-content">
             <div className="leadership-name-designation">
@@ -259,9 +276,8 @@ const RootLayout = ({ children }) => {
             </div>
             {/* Leadership description */}
             <div
-              className={`leadership-description ${
-                openProfile === "G. Pranav Reddy" ? "expanded" : ""
-              }`}
+              className={`leadership-description ${openProfile === "G. Pranav Reddy" ? "expanded" : ""
+                }`}
             >
               <p>
                 Mr. G. Pranav Reddy is a seasoned executive and Promoter
@@ -284,6 +300,9 @@ const RootLayout = ({ children }) => {
             </div>
           </div>
         </div>
+        <div className="light-purple-box light-purple-box2"></div>
+        <div className="light-orange-box light-orange-box2"></div>
+
       </section>
     </Layout>
   );
