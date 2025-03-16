@@ -7,7 +7,7 @@ const sustainability = ({ children }) => {
   return (
     <Layout>
       <Hero
-        title="ESG initiatives"
+        title="Sustainability"
         imgPath="/assets/images/sustain-hero-img.png"
       />
 
@@ -66,7 +66,7 @@ const sustainability = ({ children }) => {
                 </p>
               </div>
               <div className="esg-two-col-card-item">
-                <h3>Water and energy conservation</h3>
+                <h3 className="font-ec">Water and energy conservation</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
                 <p>
                   We implement technologies that reduce energy and water
@@ -98,7 +98,7 @@ const sustainability = ({ children }) => {
                 </p>
               </div>
               <div className="esg-two-col-card-item">
-                <h3>Segregation and recycling</h3>
+                <h3 className="font-ec">Segregation and recycling</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
                 <p className="mg-bottom-large">
                   We segregate hazardous and non-hazardous waste at the source,
@@ -109,7 +109,7 @@ const sustainability = ({ children }) => {
                 </p>
               </div>
               <div className="esg-two-col-card-item">
-                <h3>Waste-to-energy initiatives</h3>
+                <h3 className="font-ec">Waste-to-energy initiatives</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
                 <p className="mg-bottom-large">
                   We explore innovative solutions to convert waste into energy,
@@ -150,7 +150,7 @@ const sustainability = ({ children }) => {
                 </p>
               </div>
               <div className="esg-two-col-card-item">
-                <h3>Upholding standards</h3>
+                <h3 className="font-ec">Upholding standards</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
                 <p className="mg-bottom-large">
                   Matrix Pharma Corp adheres to the highest standards of
@@ -181,7 +181,7 @@ const sustainability = ({ children }) => {
                 </p>
               </div>
               <div className="esg-two-col-card-item">
-                <h3>Incident reporting and prevention</h3>
+                <h3 className="font-ec">Incident reporting and prevention</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
                 <p className="mg-bottom-large">
                   Our Incident Prevention Opportunity program tracks
@@ -190,7 +190,7 @@ const sustainability = ({ children }) => {
                 </p>
               </div>
               <div className="esg-two-col-card-item">
-                <h3>Engagement and awareness</h3>
+                <h3 className="font-ec">Engagement and awareness</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
                 <p className="mg-bottom-large">
                   Our monthly safety campaigns empower employees to recognise
@@ -200,7 +200,7 @@ const sustainability = ({ children }) => {
                 </p>
               </div>
               <div className="esg-two-col-card-item">
-                <h3>Process safety first</h3>
+                <h3 className="font-ec">Process safety first</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
                 <p>
                   Every new and existing process prioritises safety at every
