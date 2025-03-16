@@ -1,0 +1,172 @@
+/* Stick Hamburger Icon to Right & Match Header Height */
+.menuToggle {
+  width: 92px;
+  height: 92px;
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 0;
+  position: absolute;
+  top: -20px;
+  right: 0;
+  z-index: 200;
+}
+
+/* Hamburger Lines */
+.burgerLines {
+  width: 40px;
+  height: 2.6px;
+  background: white;
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.burgerLines::before,
+.burgerLines::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2.6px;
+  background: white;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.burgerLines::before {
+  top: -8px;
+}
+
+.burgerLines::after {
+  bottom: -8px;
+}
+
+/* Hide Hamburger Lines When Menu is Open */
+.burgerLines.hide {
+  opacity: 0;
+}
+
+/* Close Icon */
+.closeIcon {
+  position: absolute;
+  font-size: 44px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Show Close Icon When Menu is Open */
+.closeIcon.show {
+  opacity: 1;
+}
+
+/* Expanding Background */
+.menuBg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 624px;
+  background: var(--color-primary);
+  transform-origin: top right;
+  transform: scaleX(0) scaleY(0);
+  transition: transform 0.5s ease-in-out;
+  z-index: 105;
+  pointer-events: none;
+}
+
+.menuBgOpen {
+  transform: scaleX(1) scaleY(1);
+  pointer-events: auto;
+}
+
+/* Navigation Menu */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 624px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2rem;
+  z-index: 106;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.menuOpen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Menu Links */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 1.5rem;
+}
+
+.menu a {
+  color: white;
+  font-size: clamp(1.2rem, 0.821vw + 1.036rem, 2rem);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: var(--accent-color);
+}
+
+.navLinks a {
+  display: flex;
+  gap:14px;
+}
+
+@media screen and (min-width: 768px) {
+  .navLinks {
+    transform: translateX(-28vw);
+}
+
+.arrowPart1, .arrowPart2, .arrowPart3, .block1, .block2 {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-color: rgb(255, 254, 255);
+}
+.arrowPart1 {
+  left:0;
+  bottom:70px;
+  opacity: 0.13;
+}
+.arrowPart2 {
+  left:0;
+  bottom:0;
+  opacity: 0.26;
+}
+.arrowPart3 {
+  left:70px;
+  bottom:0;
+  opacity: 0.13;
+}
+.block1 {
+  left:240px;
+  bottom:0;
+  opacity: 0.19;
+}
+.block2{
+  left:310px;
+  bottom:70px;
+  opacity: 0.13;
+}
+}
