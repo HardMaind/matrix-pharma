@@ -1529,7 +1529,7 @@ a {
   right: 0px;
 }
 
-.two-colors{
+.two-colors {
   display: none;
 }
 
@@ -1557,13 +1557,11 @@ a {
     padding-right: 0;
   }
 
-  .leadership-image img {
-    max-width: 250px;
-    margin: 0 auto;
-  }
-
   .pd-24 {
     padding-inline: 30px;
+  }
+  .pd-4 {
+    padding-inline: 4px;
   }
 }
 
@@ -1626,20 +1624,20 @@ a {
     right: 0px;
     bottom: -90px;
   }
-  .light-purple-box2{
+  .light-purple-box2 {
     top: auto;
     bottom: 30px;
     right: -60px;
   }
-  .light-orange-box2{
+  .light-orange-box2 {
     right: -30px;
     left: auto;
     bottom: 0;
   }
-  .two-color{
+  .two-color {
     display: none;
   }
-  .two-colors{
+  .two-colors {
     display: block;
   }
 }
@@ -1727,7 +1725,7 @@ a {
 }
 
 .matrix h3 {
-  font-size: 24px;
+  font-size: 35px;
   font-style: italic;
   margin-bottom: 10px;
   color: #333;
@@ -1822,11 +1820,11 @@ a {
 
 @media screen and (max-width: 768px) {
   .matrix {
-    padding-block: 80px 40px;
+    padding-block: 50px 40px;
   }
 
   .matrix h2 {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   .matrix p {
@@ -1858,6 +1856,30 @@ a {
     order: 1;
     grid-column: span 1;
     grid-row: span 2;
+  }
+  .matrix-advantage-content {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .matrix p{
+    font-size: 15px;
+  }
+  .matrix h3 {
+    font-size: 24px;
+  }
+  .matrix h2 {
+    font-size: 28px;
+  }
+  .matrix-advantage-content h3 {
+    font-size: 25px;
+  }
+  .matrix-advantage-content li {
+    margin-bottom: 0px;
+  }
+  .block-text{
+    display: unset;
   }
 }
 
@@ -2200,6 +2222,10 @@ a {
   grid-column: 1 / 6;
 }
 
+.career-form-left-col1 {
+  grid-column: 1 / 8;
+}
+
 .career-form-left-col h2 {
   margin-bottom: 40px;
 }
@@ -2210,6 +2236,10 @@ a {
 
 .career-form-section {
   position: relative;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .career-form-box1,
@@ -2301,6 +2331,63 @@ a {
 
   .career-form-right-col {
     grid-column: 1 / 12;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .career-form-box1,
+  .career-form-box2,
+  .career-form-box3,
+  .career-form-box4,
+  .career-form-box5,
+  .career-form-box6,
+  .career-form-box7,
+  .career-form-box8,
+  .career-form-box9,
+  .career-form-box10,
+  .career-form-box11 {
+    width: 60px;
+    height: 60px;
+  }
+  .career-form-box3 {
+    top: 60px;
+    opacity: 0.1;
+  }
+  .career-form-box4 {
+    top: 120px;
+    right: 60px;
+  }
+  .career-form-box6{
+    bottom: 60px;
+    opacity: 0.1;
+  }
+  .career-form-box7 {
+    left: 60px;
+    bottom: 0px;
+    opacity: 0.1;
+  }
+  .career-form-box8,
+  .career-form-box2,
+  .career-form-box1 {
+    display: none;
+  }
+  .career-form-box9 {
+    bottom: 120px;
+    right: 0;
+    opacity: 0.05;
+  }
+  .career-form-box10{
+    bottom: 60px;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .career-form-section {
+    padding-block: 80px;
+  }
+  .career-form-left-col h2 {
+    font-size: 29px;
   }
 }
 
