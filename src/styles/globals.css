@@ -1904,6 +1904,7 @@ a {
 
 .careers h2 {
   font-size: 2.6rem;
+  max-width: 550px;
 }
 
 .careers-info-data {
@@ -2156,6 +2157,10 @@ a {
   line-height: 1.5;
 }
 
+.mb-100{
+  margin-bottom: 100px;
+}
+
 /* Responsiveness */
 @media screen and (max-width: 1200px) {
   .careers-info {
@@ -2202,13 +2207,59 @@ a {
   .careers-info-right {
     grid-column: span 12;
   }
+  .col-12{
+    grid-column: span 12;
+  }
+  .order_2{
+    order: 2;
+  }
+  .order_1{
+    order: 1;
+  }
+  .order_3{
+    order: 3;
+  }
+  .order_4{
+    order: 4;
+  }
+  .order_5{
+    order: 5;
+  }
+  .order_6{
+    order: 6;
+  }
+  .order_7{
+    order: 7;
+  }
+  .order_8{
+    order: 8;
+  }
+  .mb-100{
+    margin-bottom: 60px;
+  }
+  .careers h2{
+   max-width: 100%;
+  }
 }
 
+
 @media screen and (max-width: 480px) {
+  .careers h2{
+    font-size: 1.8rem;
+  }
   .career-column-3 .col-span-3 {
     grid-column: span 12;
     margin-bottom: 4rem;
     width: 100%;
+  }
+  .careers {
+    padding-block: 22px;
+  }
+  .grid-container.careers{
+    width: 100%;
+  }
+  .mb-100{
+    margin-bottom: 20px;
   }
 }
 
