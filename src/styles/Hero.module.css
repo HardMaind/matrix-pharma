@@ -70,7 +70,7 @@
   }
   .hero {
     height: 383px;
-    margin-top: 0;
+    margin-top: 10px;
   }
   .heroTitle {
     font-size: 2rem;
