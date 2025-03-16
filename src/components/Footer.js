@@ -49,9 +49,6 @@ const Footer = () => {
               <Link href="/sustainability">Sustainability</Link>
             </li>
             <li>
-              <Link href="/">News</Link>
-            </li>
-            <li>
               <Link href="/careers">Careers</Link>
             </li>
             <li>
