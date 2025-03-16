@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import { useState } from "react";
 import Layout from '../components/Layout'; 
 import Hero from '../components/Hero';
+import FormContactus from '../components/FormContactus'
 
 const ContactPage = () => {
    const [formData, setFormData] = useState({
@@ -67,55 +68,7 @@ const ContactPage = () => {
         <div className="col-span-6 "> 
         <div className="col-span-6 ">
             <div className='form-container '>
-              <form onSubmit={handleSubmit}>
-                <div className="input-container">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="John Doe"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="input text-white"
-                  />
-                  <span className="input-underline"></span>
-                </div>
-                <div className="input-container">
-                  <input
-                    type="text"
-                    name="company"
-                    placeholder="Company"
-                    value={formData.company}
-                    onChange={handleChange}
-                    className="input"
-                  />
-                  <span className="input-underline"></span>
-                </div>
-                <div className="input-container">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="input"
-                  />
-                  <span className="input-underline"></span>
-                </div>
-                <div className="input-container">
-                  <input
-                    type="text"
-                    name="phone"
-                    placeholder="Phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="input"
-                  />
-                  <span className="input-underline"></span>
-                </div>
-                <button type="submit" className="buttonsub">
-                  SUBMIT
-                </button>
-              </form>
+              <FormContactus />
             </div>
           </div>
         </div>

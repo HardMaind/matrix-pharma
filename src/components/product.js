@@ -7,7 +7,7 @@ const MatrixComponent = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [selectedTherapeuticArea, setSelectedTherapeuticArea] = useState("");
     const [selectedDmf, setSelectedDmf] = useState("");
-    const [visibleProducts, setVisibleProducts] = useState(10);
+    const [visibleProducts, setVisibleProducts] = useState(30);
 
     useEffect(() => {
         fetch("../pharmaceutical_data.json")

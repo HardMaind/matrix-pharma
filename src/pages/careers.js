@@ -2,7 +2,7 @@
 import "../styles/globals.css";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
-import CareerForm from "@/components/CareerForm";
+import CareerForm from "@/components/FormCareer";
 
 const careers = ({ children }) => {
   return (
