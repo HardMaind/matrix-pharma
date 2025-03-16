@@ -6,30 +6,14 @@ import Hero from '../components/Hero';
 import FormContactus from '../components/FormContactus'
 
 const ContactPage = () => {
-   const [formData, setFormData] = useState({
-      name: '',
-      company: '',
-      email: '',
-      phone: '',
-    });
-    const handleChange = (e) => {
-      setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
-  
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      console.log(formData);
-    };
-    
   return (
     <Layout>
       <Hero title="Contact Us" imgPath="/assets/images/contact-us-hero-img.png" />
        {/*Contact Us creting execllance starts */}
-      <section className="contactus-creting-excellance ">
+      <section className="contactus-creting-excellance">
       <div className="offices-container container grid-container">
       <div className="office-card">
         <h2 className="office-title">Corporate office</h2>
-   
         <p className="office-bold">Matrix Pharma Corp</p>
         <p className="office-address">
           Plot No. 1-60/35/A, Gachibowli Village, Beside Holiday Inn Hotel,
