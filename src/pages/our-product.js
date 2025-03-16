@@ -19,7 +19,7 @@ const RootLayout = ({ children }) => {
 
       {/* Product Description */}
       <section className="aboutus-creting-excellance pd-24">
-        <div className="container grid-container aboutus-creting-excellance">
+        <div className="container grid-container aboutus-creting-excellance mx-0">
           <div className="col-span-6">
             <h2>
               We make the key ingredients for your next-gen pharma products.

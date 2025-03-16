@@ -1169,6 +1169,9 @@ a {
   .aboutus-vision {
     padding: 40px 0;
   }
+  .mx-0{
+    width: 100%;
+  }
 }
 
 /* About Us Vision, Purpose, Values */
@@ -2425,6 +2428,10 @@ a {
   margin-bottom: 40px;
 }
 
+.filter-text-title{
+  text-align: center;
+}
+
 /* Filter Controls */
 .filter-controls {
   display: flex;
@@ -2526,11 +2533,16 @@ a {
 }
 
 /* Table */
+.table-wrapper{
+  width: 100%;
+  padding: 0 30px;
+  overflow-x: auto;
+}
 .pharma-products-table {
   width: 100%;
   padding: 14px;
   max-width: 1080px;
-  min-height: 680px;
+  margin: auto;
   text-align: left;
   border-collapse: collapse;
   background-color: #fffded;
@@ -2591,6 +2603,7 @@ a {
   border: none;
   transition: all 0.3s ease-in-out;
   position: relative;
+  margin-top: 100px;
 }
 
 .load-more-btn::after {
@@ -2621,12 +2634,13 @@ a {
     min-width: 600px;
     overflow-x: auto;
     direction: rtl;
+    padding: 14px 0;
   }
 
   .table-header,
   .pharma-product-row {
     display: flex;
-    min-width: 600px;
+    /* min-width: 600px; */
     flex-wrap: nowrap;
     direction: ltr;
     /* Ensure text aligns properly */
@@ -2636,7 +2650,7 @@ a {
   .pharma-products-table td {
     font-size: 14px;
     padding: 10px;
-    white-space: nowrap;
+    white-space: wrap;
   }
 
   /* Stack filter controls vertically */
@@ -2679,6 +2693,23 @@ a {
 
   .filter-reset-btn:hover {
     background-color: #e53935;
+  }
+  .product-section{
+    padding-block: 50px;
+  }
+  .load-more-btn{
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .filter-text-title{
+    text-align: start;
+    padding: 0 30px;
+    font-size: 30px;
+  }
+  .filter-section{
+    padding: 0 30px;
   }
 }
 
