@@ -211,7 +211,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1.6rem, 1.179vw + 1.364rem, 2.75rem);
+  font-size: clamp(1.9rem, 1.179vw + 1.364rem, 2.75rem);
 }
 
 h3 {
@@ -238,7 +238,7 @@ h6 {
 p {
   line-height: 1.8em;
   margin-bottom: 16px;
-  font-size: 1rem;
+  font-size: 1.18rem;
 }
 
 /* Buttons */
@@ -380,12 +380,8 @@ a {
   font-weight: 400;
 }
 
-.home-about-us-right {
-  width: min(600px, 100%);
-}
-
 .home-about-us-right p {
-  font-size: 1rem;
+  font-size: 1.18rem;
   margin-bottom: 84px;
 }
 
@@ -825,7 +821,7 @@ a {
 }
 
 .home-milestone-wrapper .link-text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--color-primary);
   border-bottom: 1.5px solid var(--color-primary);
@@ -851,12 +847,12 @@ a {
 .home-milestone-para {
   width: min(40ch, 100%);
   margin-bottom: clamp(2.5rem, 3.846vw + 1.731rem, 6.25rem);
-  font-size: 1rem;
+  font-size: 1.14rem;
 }
 
 /* Home every action section */
 .home-every-action {
-  padding-block: clamp(2rem, 8.205vw + 0.359rem, 10rem);
+  padding-block: clamp(2rem, 8.205vw + 0.359rem, 10rem) 7rem;
 }
 
 .hea-left-content {
@@ -872,7 +868,6 @@ a {
 }
 
 .home-every-action p {
-  font-size: 1rem;
   margin-bottom: 80px;
 }
 
@@ -885,7 +880,7 @@ a {
 }
 
 .hea-right-content video {
-  margin-top: -10rem;
+  margin-top: -5rem;
 }
 
 .hea-right-content img {
@@ -905,7 +900,11 @@ a {
 
   .hea-left-content,
   .hea-right-content {
-    grid-column: 2 / 11;
+    grid-column: 2 / 12;
+  }
+
+  .hea-right-content {
+    grid-column: 2 / -1;
   }
 
   .hea-left-content {
@@ -933,7 +932,6 @@ a {
 
 .whats-new-card-wrapper p {
   line-height: 1.4em;
-  font-size: 1rem;
 }
 
 /* Whats new section start */
@@ -943,7 +941,6 @@ a {
 }
 
 .home-whats-new h2 {
-  /* font-size: 2.8rem; */
   font-weight: 400;
   margin-bottom: 54px;
 }
@@ -1137,20 +1134,12 @@ a {
     padding-block: 20px;
   }
 
-  .aboutus-creting-excellance p {
-    font-size: 15px;
-  }
-
   .mg-bottom-large {
     margin-bottom: 30px;
   }
 
   .aboutus-vision .col-span-4 {
     padding: 0px 12px;
-  }
-
-  .aboutus-vision p {
-    font-size: 15px;
   }
 
   .visually-box1,
@@ -1204,7 +1193,6 @@ a {
 }
 
 .abt-miles-grid p {
-  font-size: 16px;
   line-height: 24px;
 }
 
@@ -1728,14 +1716,12 @@ a {
 }
 
 .matrix h3 {
-  font-size: 35px;
   font-style: italic;
   margin-bottom: 10px;
   color: #333;
 }
 
 .matrix h2 {
-  font-size: 46px;
   margin-bottom: 40px;
   color: #000;
 }
@@ -1826,10 +1812,6 @@ a {
     padding-block: 50px 40px;
   }
 
-  .matrix h2 {
-    font-size: 36px;
-  }
-
   .matrix p {
     font-size: 16px;
     max-width: 100%;
@@ -1866,18 +1848,6 @@ a {
 }
 
 @media screen and (max-width: 425px) {
-  .matrix p{
-    font-size: 15px;
-  }
-  .matrix h3 {
-    font-size: 24px;
-  }
-  .matrix h2 {
-    font-size: 28px;
-  }
-  .matrix-advantage-content h3 {
-    font-size: 25px;
-  }
   .matrix-advantage-content li {
     margin-bottom: 0px;
   }
@@ -1902,19 +1872,11 @@ a {
   padding-block: 52px 52px;
 }
 
-.careers h2 {
-  font-size: 2.6rem;
-}
-
 .careers-info-data {
   padding-block: 60px;
 }
 
 /* Ensure text alignment and responsiveness */
-.careers-matrix h2 {
-  font-size: 36px;
-  font-weight: bold;
-}
 
 .careers-matrix p {
   font-size: 16px;
@@ -1994,7 +1956,6 @@ a {
 
 .careers1-heading h2 {
   padding-bottom: 140px;
-  font-size: 40px;
 }
 
 .careers1-col {
@@ -2088,13 +2049,11 @@ a {
 }
 
 .careers-info-left h2 {
-  font-size: 2.6rem;
   margin-bottom: 36px;
 }
 
 /* Heading */
 .careers-info h2 {
-  font-size: 40px;
   font-weight: bold;
   color: #000;
   margin-bottom: 20px;
@@ -2388,9 +2347,6 @@ a {
 @media screen and (max-width: 425px) {
   .career-form-section {
     padding-block: 80px;
-  }
-  .career-form-left-col h2 {
-    font-size: 29px;
   }
 }
 

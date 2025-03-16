@@ -37,7 +37,7 @@ const Footer = () => {
               <Link href="/our-product">Products</Link>
             </li>
             <li>
-              <Link href="/matrix-advantages">Matrix Advantages</Link>
+              <Link href="/sustainability">Sustainability</Link>
             </li>
           </ul>
         </div>
@@ -46,7 +46,7 @@ const Footer = () => {
         <div className={`${styles.footerCol3}`}>
           <ul className={`${styles.footerLinks}`}>
             <li>
-              <Link href="/sustainability">Sustainability</Link>
+              <Link href="/matrix-advantages">Matrix Advantages</Link>
             </li>
             <li>
               <Link href="/careers">Careers</Link>
@@ -62,13 +62,13 @@ const Footer = () => {
           <div>
             <p className="text-white">Follow</p>
             <div className={styles.socialLinks}>
-            <Link
+              <Link
                 href="https://www.linkedin.com/company/matrix-pharma-corp?originalSubdomain=in"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className={styles.socialIcon}>
-                <img src="/icons/linkedin.svg" />
+                  <img src="/icons/linkedin.svg" />
                 </div>
               </Link>
               <Link
@@ -77,7 +77,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <div className={styles.socialIcon}>
-                <img src="/icons/instagram.svg" />
+                  <img src="/icons/instagram.svg" />
                 </div>
               </Link>
               <Link
@@ -86,22 +86,28 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <div className={styles.socialIcon}>
-                <img src="/icons/facebook.svg" />
+                  <img src="/icons/facebook.svg" />
                 </div>
               </Link>
 
-              <Link
-                href="#"
-                rel="noopener noreferrer"
-              >
+              <Link href="#" rel="noopener noreferrer">
                 <div className={styles.socialIcon}>
-                <img src="/icons/twitter.svg" />
+                  <img src="/icons/twitter.svg" />
                 </div>
               </Link>
-              
             </div>
           </div>
-          <p className={styles.designby}>Design and Content: Spike Studio</p>
+
+          <p className={styles.designby}>
+            Design and Content:{" "}
+            <Link
+              href="https://spikestudio.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Spike Studio
+            </Link>
+          </p>
         </div>
         {/* Third Column End */}
       </div>

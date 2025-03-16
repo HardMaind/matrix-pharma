@@ -119,7 +119,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <Link href="/our-product" className="link-text">
-                    Antidiabetic
+                  Antidiabetic
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
                     </svg>
@@ -127,7 +127,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <Link href="/our-product" className="link-text">
-                    Antihypertensive
+                  Antineoplastic
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
                     </svg>
@@ -135,7 +135,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <Link href="/our-product" className="link-text">
-                    Cardiovascular
+                  Antihypertensive
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
                     </svg>
@@ -143,7 +143,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <Link href="/our-product" className="link-text">
-                    Cardiovascular
+                  Cardiovascular
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
                     </svg>
@@ -151,7 +151,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <Link href="/our-product" className="link-text">
-                    Proton Pump Inhibitor
+                  Central Nervous System
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
                     </svg>
@@ -159,7 +159,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <Link href="/our-product" className="link-text">
-                    Proton Pump Inhibitor
+                  Proton Pump Inhibitor
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
                     </svg>
@@ -221,132 +221,6 @@ const HomePage = () => {
         </div>
       </section>
       {/* Home every action section end */}
-
-      {/* Whats new section start*/}
-      <section className="home-whats-new">
-        <div className="container">
-          <h2 className="text-center">What's new at Matrix.</h2>
-          <div className="whats-new-card-wrapper">
-            <div className="whats-new-wrapper-card wnw-card-1 wnw-flex">
-              <p>
-                Sai T appointed as Chief Information Officer at Matrix Pharma
-                Corp.
-              </p>
-              <Link
-                href="/"
-                className="link-white text-uppercase flex flex-center flex-gap-m"
-              >
-                Read More
-                <svg width="17" height="17" viewBox="0 0 17 17">
-                  <path
-                    d="M15.707 8.472l-7.354 7.354-0.707-0.707 6.146-6.146h-12.792v-1h12.793l-6.147-6.148 0.707-0.707 7.354 7.354z"
-                    fill="#ffffff"
-                  />
-                </svg>
-              </Link>
-            </div>
-            <div className="whats-new-wrapper-card wnw-card-2">
-              <div className="wnw-card-inner-text wnw-flex">
-                <p>
-                  Driven by excellence: Scaling global API production for the
-                  next generation of medicine.
-                </p>
-                <Link
-                  href="/"
-                  className="link-white text-uppercase flex flex-center flex-gap-m"
-                >
-                  Read More
-                  <svg width="17" height="17" viewBox="0 0 17 17">
-                    <path
-                      d="M15.707 8.472l-7.354 7.354-0.707-0.707 6.146-6.146h-12.792v-1h12.793l-6.147-6.148 0.707-0.707 7.354 7.354z"
-                      fill="#ffffff"
-                    />
-                  </svg>
-                </Link>
-              </div>
-              <div className="wnw-card-inner-img">
-                <Image
-                  src="/assets/images/home-img-1.png"
-                  width={280}
-                  height={280}
-                  alt="Picture"
-                />
-              </div>
-            </div>
-            <div className="whats-new-wrapper-card wnw-card-3 wnw-flex">
-              <p>
-                Pioneering progress: How Matrix Pharma Corp is redefining API
-                manufacturing standards.
-              </p>
-            </div>
-            <div className="whats-new-wrapper-card wnw-card-4 wnw-flex">
-              <p>APIs That Power Global Health.</p>
-            </div>
-            <div className="whats-new-wrapper-card wnw-card-5">
-              <div className="wnw-card-inner-text wnw-flex">
-                <p>
-                  Driven by excellence: Scaling global API production for the
-                  next generation of medicine.
-                </p>
-                <Link
-                  href="/"
-                  className="link-white text-uppercase flex flex-center flex-gap-m"
-                >
-                  Read More
-                  <svg width="17" height="17" viewBox="0 0 17 17">
-                    <path
-                      d="M15.707 8.472l-7.354 7.354-0.707-0.707 6.146-6.146h-12.792v-1h12.793l-6.147-6.148 0.707-0.707 7.354 7.354z"
-                      fill="#ffffff"
-                    />
-                  </svg>
-                </Link>
-              </div>
-              <div className="wnw-card-inner-img">
-                <Image
-                  src="/assets/images/home-img3.png"
-                  width={280}
-                  height={280}
-                  alt="Picture"
-                />
-              </div>
-            </div>
-            <div className="whats-new-wrapper-card wnw-card-6 wnw-flex">
-              <p>Pure APIs, trusted partnerships.</p>
-              <Link
-                href="/"
-                className="link-white text-uppercase flex flex-center flex-gap-m"
-              >
-                Read More
-                <svg width="17" height="17" viewBox="0 0 17 17">
-                  <path
-                    d="M15.707 8.472l-7.354 7.354-0.707-0.707 6.146-6.146h-12.792v-1h12.793l-6.147-6.148 0.707-0.707 7.354 7.354z"
-                    fill="#ffffff"
-                  />
-                </svg>
-              </Link>
-            </div>
-            <div className="whats-new-wrapper-card wnw-card-7 wnw-flex">
-              <p>
-                From innovation to impact: The role of Matrix Pharma Corp in
-                shaping the future of pharmaceuticals.
-              </p>
-              <Link
-                href="/"
-                className="link-white text-uppercase flex flex-center flex-gap-m"
-              >
-                Read More
-                <svg width="17" height="17" viewBox="0 0 17 17">
-                  <path
-                    d="M15.707 8.472l-7.354 7.354-0.707-0.707 6.146-6.146h-12.792v-1h12.793l-6.147-6.148 0.707-0.707 7.354 7.354z"
-                    fill="#ffffff"
-                  />
-                </svg>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Whats new section end*/}
     </Layout>
   );
 };
