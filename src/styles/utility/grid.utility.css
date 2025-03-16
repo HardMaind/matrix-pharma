@@ -219,6 +219,9 @@ align-items: stretch;
   .col-span-6 {
     grid-column: span 12;
   }
+  .col-span-5 {
+    grid-column: span 12;
+  }
   .col-span-4 {
     grid-column: span 12;
   }

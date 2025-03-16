@@ -11,7 +11,7 @@ const sustainability = ({ children }) => {
         imgPath="/assets/images/sustain-hero-img.png"
       />
 
-      <section className="careers pd-24">
+      <section className="careers">
         <div className="container grid-container careers">
           <div className="col-span-6">
             <h2>
@@ -78,8 +78,13 @@ const sustainability = ({ children }) => {
               </div>
             </div>
           </div>
+          </div>
+        </section>
 
-          <div className="col-span-5">
+
+         <section className="esg-two-col">
+            <div className="container grid-container">
+            <div className="col-span-5 esg-order1">
             <h2 className="mg-bottom-large">Waste management and reduction</h2>
             <p className="mg-bottom-large">
               We take a proactive approach to managing and reducing waste across
@@ -119,14 +124,19 @@ const sustainability = ({ children }) => {
               </div>
             </div>
           </div>
-          <div className="col-span-5 col-7" style={{ marginBottom: "100px" }}>
+          <div className="col-span-5 col-7 esg-order2" style={{ marginBottom: "100px" }}>
             <img src="/assets/images/sustainability-img2.png" />
           </div>
+            </div>
+         </section>
 
-          <div className="col-span-5">
+
+         <section className="esg-two-col">
+         <div className="container grid-container">
+          <div className="col-span-5 esg-order1">
             <img src="/assets/images/sustainability-img3.png" />
           </div>
-          <div className="col-span-6 col-7" style={{ marginBottom: "100px" }}>
+          <div className="col-span-6 col-7 esg-order2" style={{ marginBottom: "100px" }}>
             <h2 className="mg-bottom-large">
               Renewable solar energy initiative
             </h2>
@@ -162,8 +172,12 @@ const sustainability = ({ children }) => {
               </div>
             </div>
           </div>
+          </div>
+          </section> 
 
-          <div className="col-span-5">
+            <section className="esg-two-col">
+            <div className="container grid-container">
+          <div className="col-span-5 esg-order1">
             <h2 className="mg-bottom-large">Workplace health and safety</h2>
             <p className="mg-bottom-large">
               At Matrix Pharma Corp, we proactively safeguard our workforce
@@ -209,7 +223,7 @@ const sustainability = ({ children }) => {
               </div>
             </div>
           </div>
-          <div className="col-span-5 col-7">
+          <div className="col-span-5 col-7 esg-order2">
             <img src="/assets/images/sustainability-img4.png" />
           </div>
         </div>

@@ -20,7 +20,7 @@ const RootLayout = ({ children }) => {
       />
 
       <section className="aboutus-creting-excellance">
-        <div className="container grid-container aboutus-creting-excellance">
+        <div className="container grid-container">
           <div className="col-span-6">
             <h2>
               Creating excellence<br></br> for partners worldwide.
@@ -80,12 +80,14 @@ const RootLayout = ({ children }) => {
       {/*About Us Vision, Purpose, Values */}
 
       <section className="aboutus-video">
+      <div className="container ">
       <video controls poster="/assets/images/matrix-pharma-poster.jpg">
         <source
           src="/assets/videos/matrix-pharma-corp-Interview-video.mp4"
           type="video/mp4"
         />
       </video>
+      </div>
       </section>
 
       {/* Milestones of excellence start*/}
@@ -103,7 +105,7 @@ const RootLayout = ({ children }) => {
       </div>
 
       <section className="aboutus-milestones-excellence-container display-none">
-        <div className="abt-miles-grid container pd-24">
+        <div className="abt-miles-grid container">
           <div className="abt-miles-item1">
             <h2 className="text-white">
               Milestones <br></br>of excellence.
@@ -160,9 +162,9 @@ const RootLayout = ({ children }) => {
       {/* Milestones of excellence end */}
 
       {/* Leadership team section */}
-      <section className="about-leadership-container pd-24">
+      <section className="about-leadership-container">
         <div className="container leadership-section">
-          <h3>Leadership Team</h3>
+          <h2>Leadership Team</h2>
         </div>
 
         {/* Leadership Profile: Anil Kumar Jain */}

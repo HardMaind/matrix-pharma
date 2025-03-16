@@ -1050,7 +1050,7 @@ a {
 /* ============================= */
 
 .aboutus-creting-excellance {
-  padding-block: 40px 60px;
+  padding-block: clamp(4rem, 5.256vw + -0.051rem, 6.125rem);
 }
 
 .aboutus-creting-excellance p {
@@ -1064,7 +1064,7 @@ a {
 }
 
 .aboutus-vision {
-  padding-block: 40px 80px;
+  padding-block:3rem 5rem;
   position: relative;
 }
 
@@ -1133,6 +1133,7 @@ a {
 
 .aboutus-video video{
   width:100vw;
+  margin-bottom:8rem;
 }
 
 @media screen and (max-width: 575px) {
@@ -1415,6 +1416,7 @@ a {
 
 .leadership-section {
   padding-bottom: 80px;
+  margin:0;
 }
 
 .about-leadership-container {
@@ -1444,7 +1446,12 @@ a {
 }
 
 .leadership-description p {
-  font-size: 18px;
+  font-size: 1.1rem;
+  width: min(900px, 100%);
+}
+
+.leadership-description p:last-child {
+  margin-bottom:0;
 }
 
 .leadership-image {
@@ -2428,11 +2435,13 @@ a {
 
 /* Reset Button */
 .filter-reset-btn {
-  padding: 10px 16px;
-  font-size: 12px;
+  all:unset;
+  padding: 5px 5px;
+  font-size: 14px;
   font-weight: 300;
   background-color: #00000000;
   border: none;
+  border-radius: 0;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -2689,6 +2698,25 @@ a {
   grid-column: 7 / 13;
 }
 
+.esg-order1 {
+  order:1;
+}
+.esg-order2 {
+  order:2;
+}
+
+@media screen and (max-width:768px) {
+  .esg-two-col .col-7 {
+    grid-column: 1 / 12;
+  }
+  .esg-order1 {
+    order:2;
+  }
+  .esg-order2 {
+    order:1;
+  }
+}
+
 .esg-two-col-card-item h3 {
   color: #f04f3f;
   font-size: 24px;
@@ -2699,10 +2727,6 @@ a {
 .esg-two-col-card-item {
   position: relative;
 }
-
-/* .esg-two-col .grid-container {
-  gap: 120px;
-} */
 
 .esg-visually-box1,
 .esg-visually-box2,
@@ -2752,21 +2776,13 @@ a {
 .leadership-content h4 {
   color: #f04f3f;
   font-family: "EuclidCircular", "semi-bold";
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .corofficer {
   color: #000000;
   font-family: "EuclidCircular", "semi-bold";
   font-weight: 600;
-}
-
-.offices-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 4rem;
-  background-color: white;
 }
 
 @media (min-width: 768px) {
@@ -2787,31 +2803,36 @@ a {
 
 @media (min-width: 768px) {
   .office-card {
-    width: 50%;
+    width: 70%;
   }
 }
 
 .office-title {
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   font-family: "IvarSoft";
 }
 
 .office-bold {
-  font-weight: bold;
+  font-weight: 600;
+  margin-bottom:0;
 }
 
 .office-address {
   color: #4a4a4a;
   white-space: pre-line;
-  font-size: 17px;
+  font-size: 1rem;
+  margin-bottom:3rem;
 }
 
 .office-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   margin-top: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   color: #e63946;
   text-decoration: none;
+  font-size: 1rem;
+  gap:1rem;
 }
 
 .office-link:hover {
@@ -2822,10 +2843,15 @@ a {
   font-family: "IvarSoft";
 }
 
-/* contactus-form start from here */
+/* contactus Page  start from here */
+.contact-address {
+  padding-block: clamp(4rem, 5.256vw + -0.051rem, 6.125rem);
+}
+
 .contactus-from-section {
   background-color: #f04f3f;
   height: 100%;
+  padding-block: clamp(4rem, 5.256vw + -0.051rem, 6.125rem);
 }
 
 .input-container {
@@ -2901,6 +2927,10 @@ a {
   padding: 50px 0;
 }
 
+.contactus-from-section h2 {
+  margin-bottom:34px;
+}
+
 .contactus-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2908,9 +2938,22 @@ a {
   align-items: center;
 }
 
+.form-container {
+  grid-column: 8 / 12;
+}
+
+@media screen and (max-width:768px){
+  .form-container {
+    grid-column: 1 / 12;
+  }
+
+  .contact-address .grid-container {
+    row-gap: 5rem;
+  }
+}
+
 .left-container {
   color: white;
-  padding: 10px;
 }
 
 .left-container p {
