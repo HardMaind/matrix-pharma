@@ -80,7 +80,7 @@ const HomePage = () => {
       <section className="home-milestone bg-yellow">
         <div className="container home-milestone-wrapper">
           <div className="text-center">
-            <h2 style={{ textAlign: "left" }}>From molecules to milestones.</h2>
+            <h2>From molecules to milestones.</h2>
           </div>
           <div className="grid-container">
             <div className="col-span-6 home-milestone-flex">
