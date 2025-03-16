@@ -135,7 +135,6 @@
   .navLinks {
     transform: translateX(-28vw);
   }
-
   .arrowPart1,
   .arrowPart2,
   .arrowPart3,
@@ -181,8 +180,21 @@
   }
 }
 @media screen and (max-width: 768px) {
-
   .menu {
     align-items: flex-start;
+  }
+}
+
+@media screen and (min-width:480px) {
+  .menulogo {
+    display: none;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .menulogo {
+    display: block;
+    position: absolute;
+    top:2.4rem;
   }
 }

@@ -50,6 +50,7 @@ const MenuToggle = () => {
       {/* Navigation Menu */}
       <nav className={`${styles.menu} ${menuOpen ? styles.menuOpen : ""}`}>
         <div className="nav-wrapper">
+          <img className={`${styles.menulogo}`} src="/matrix-pharma.svg" width="200"></img>
           <ul className={`${styles.navLinks}`}>
             <li>
               <IconLink
