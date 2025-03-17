@@ -155,39 +155,6 @@ const MatrixAdvantages = ({ children }) => {
       ))}
       {/* Matrix Description Sections End */}
       {/*matrix decsription end */}
-
-      {/* career form starts*/}
-      <section className="career-form-section">
-        <div className="container career-form-wrapper grid-container">
-          <div className="career-form-left-col career-form-left-col1">
-            <h2 className="text-white">
-              Unlock the advantages of partnering
-              with Matrix Pharma Corp.
-            </h2>
-            <p className="text-white">
-              Enter your details and we'll get in touch with you.
-            </p>
-          </div>
-          <div className="career-form-right-col mt-30">
-            <DetailForm />
-          </div>
-        </div>
-        {/* All bg boxes */}
-        <div class="career-box-container">
-          <span class="career-form-box1" aria-hidden="true"></span>
-          <span class="career-form-box2" aria-hidden="true"></span>
-          <span class="career-form-box3" aria-hidden="true"></span>
-          <span class="career-form-box4" aria-hidden="true"></span>
-          <span class="career-form-box5" aria-hidden="true"></span>
-          <span class="career-form-box6" aria-hidden="true"></span>
-          <span class="career-form-box7" aria-hidden="true"></span>
-          <span class="career-form-box8" aria-hidden="true"></span>
-          <span class="career-form-box9" aria-hidden="true"></span>
-          <span class="career-form-box10" aria-hidden="true"></span>
-          <span class="career-form-box11" aria-hidden="true"></span>
-        </div>
-      </section>
-      {/* career form starts*/}
     </Layout>
   );
 };

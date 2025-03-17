@@ -129,8 +129,6 @@ const sustainability = ({ children }) => {
           </div>
             </div>
          </section>
-
-
          <section className="esg-two-col">
          <div className="container grid-container">
           <div className="col-span-5">
