@@ -238,7 +238,13 @@ h6 {
 p {
   line-height: 1.8em;
   margin-bottom: 16px;
-  font-size: 1.18rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width:480px) {
+  p {
+    font-size: 1.18rem;
+  }
 }
 
 /* Buttons */
@@ -422,7 +428,6 @@ a {
 }
 
 .home-about-us-right p {
-  font-size: 1.18rem;
   margin-bottom: 84px;
 }
 
@@ -1100,7 +1105,6 @@ a {
 }
 
 .aboutus-creting-excellance p {
-  font-size: 18px;
   line-height: 30px;
   color: #363636;
 }
@@ -1125,7 +1129,6 @@ a {
 }
 
 .aboutus-vision p {
-  font-size: 18px;
   color: #58595b;
 }
 
@@ -1462,7 +1465,6 @@ a {
 
 .leadership-section {
   padding-bottom: 80px;
-  margin: 0;
 }
 
 .about-leadership-container {
@@ -1492,7 +1494,6 @@ a {
 }
 
 .leadership-description p {
-  font-size: 1.1rem;
   width: min(900px, 100%);
 }
 
@@ -1882,7 +1883,6 @@ a {
   }
 
   .matrix p {
-    font-size: 16px;
     max-width: 100%;
   }
 
@@ -1948,7 +1948,6 @@ a {
 /* Ensure text alignment and responsiveness */
 
 .careers-matrix p {
-  font-size: 16px;
   line-height: 1.8em;
 }
 
@@ -2179,7 +2178,6 @@ a {
 
 /* Paragraphs in Right Column */
 .careers-info-right-col p {
-  font-size: 16px;
   color: #333;
   line-height: 1.5;
 }
@@ -2833,7 +2831,6 @@ a {
 .leadership-name-designation p {
   color: #000000;
   font-family: "EuclidCircular";
-  font-size: 17px;
   font-weight: 500;
 }
 
