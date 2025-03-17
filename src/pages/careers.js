@@ -10,7 +10,7 @@ const careers = ({ children }) => {
       <Hero title="Careers" imgPath="/assets/images/careers-hero-img-web.jpg" />
 
       <section className="careers">
-        <div className="container grid-container careers">
+        <div className="container grid-container">
           <div className="col-span-6">
             <h2>
               Join us.<br></br> Let’s build excellence together.

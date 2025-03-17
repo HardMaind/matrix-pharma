@@ -12,7 +12,7 @@ const sustainability = ({ children }) => {
       />
 
       <section className="careers">
-        <div className="container grid-container careers">
+        <div className="container grid-container">
           <div className="col-span-6">
             <h2>
               Growing responsibly <br></br>by building a sustainable future
