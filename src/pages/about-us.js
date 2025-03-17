@@ -161,14 +161,16 @@ const RootLayout = ({ children }) => {
       </section>
       {/* Milestones of excellence end */}
 
+
       {/* Leadership team section */}
       <section className="about-leadership-container">
-        <div className="container leadership-section">
+        <div className="container ">
+          <div className="leadership-section">
           <h2>Leadership Team</h2>
         </div>
 
         {/* Leadership Profile: Anil Kumar Jain */}
-        <div className="container leadership-profile">
+        <div className="leadership-profile">
           <div className="leadership-image">
             <img
               src="/assets/images/anil-kumar-jain.png"
@@ -221,7 +223,7 @@ const RootLayout = ({ children }) => {
         </div>
 
         {/* Leadership Profile: Swathi Reddy Gunupati */}
-        <div className="container leadership-profile">
+        <div className="leadership-profile">
           <div className="leadership-image">
             <img
               src="/assets/images/swathi-reddy.png"
@@ -272,7 +274,7 @@ const RootLayout = ({ children }) => {
         </div>
 
         {/* Leadership Profile: G. Pranav Reddy */}
-        <div className="container leadership-profile leadership-profile1">
+        <div className="leadership-profile leadership-profile1">
           <div className="leadership-image">
             <img src="/assets/images/pranav-reddy.png" alt="G. Pranav Reddy" />
             <div className="light-purple-box light-purple-box1"></div>
@@ -331,6 +333,7 @@ const RootLayout = ({ children }) => {
         <div className="two-color">
           <div className="light-purple-box light-purple-box2"></div>
           <div className="light-orange-box light-orange-box2"></div>
+        </div>
         </div>
       </section>
     </Layout>

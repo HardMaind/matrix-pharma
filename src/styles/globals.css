@@ -1130,6 +1130,7 @@ a {
 
 .aboutus-vision p {
   color: #58595b;
+  font-size: 1.18rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -1622,7 +1623,7 @@ a {
     margin: 0 auto;
   }
   .about-leadership-container {
-    padding: 40px 30px;
+    padding: 40px 0px;
   }
   .leadership-section {
     padding-bottom: 28px;
