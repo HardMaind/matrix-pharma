@@ -307,52 +307,201 @@ const sustainability = ({ children }) => {
 
           <div className="row mx-auto">
             <div className="col-12">
-              <div className="main-heading position-relative">
-                <h3>
+              <div className="main-heading">
+                <h4>
                   Resilient, Responsible and Strategic Supplier Relationships.
-                </h3>
-                <span className="box" aria-hidden="true"></span>
-              </div>
-            </div>
-            <div className="col-12 col-lg-4">
-              <div className="position-relative">
-                <h3 className="font-ec heading">Foundational Governance</h3>
+                </h4>
                 <span className="box box1" aria-hidden="true"></span>
-              </div>
-              <p className="sub-heading">
-                Reducing our ecological footprint through emissions reduction,
-                water stewardship, circular practices, and biodiversity
-                conservation.
-              </p>
-            </div>
-            <div className="col-12 col-lg-4">
-              <div className="position-relative">
-                <h3 className="font-ec heading">
-                  ESG Due Diligence and Inclusion Practices
-                </h3>
                 <span className="box box2" aria-hidden="true"></span>
               </div>
-              <p className="sub-heading">
-                Embedding ethics, transparency, and accountability in our
-                operations.
-              </p>
             </div>
+
             <div className="col-12 col-lg-4">
-              <div className="position-relative">
-                <h3 className="font-ec heading">
+              <div className="supplier-card card1">
+                <span className="box box1" aria-hidden="true"></span>
+                <span className="box box2" aria-hidden="true"></span>
+                <span className="box box3" aria-hidden="true"></span>
+                <span className="box box4" aria-hidden="true"></span>
+                <span className="box box5" aria-hidden="true"></span>
+                <h4 className="font-ec heading">
+                  Foundational <br /> Governance
+                </h4>
+                <div className="item-list">
+                  <p>1. Supplier Code of Conduct. </p>
+                  <p>2. Sustainable Procurement Policy.</p>
+                  <p>3. Supplier grievance mechanism.</p>
+                  <p>4. Supplier risk prioritization.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-lg-4">
+              <div className="supplier-card">
+                <h4 className="font-ec heading">
+                  ESG Due Diligence and Inclusion Practices
+                </h4>
+                <div className="item-list">
+                  <p>1. Supplier ESG screening.</p>
+                  <p>2. Supplier ESG assessments and audits.</p>
+                  <p>3. Enhancing local procurement and supplier diversity.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12 col-lg-4">
+              <div className="supplier-card card3">
+                <span className="box box1" aria-hidden="true"></span>
+                <span className="box box2" aria-hidden="true"></span>
+                <span className="box box3" aria-hidden="true"></span>
+                <h4 className="font-ec heading">
                   Performance Management and Capacity Building
-                </h3>
+                </h4>
+                <div className="item-list">
+                  <p>1. Supplier ESG score-card.</p>
+                  <p>2. Supplier recognition program.</p>
+                  <p>3. Supplier support program.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-12">
+              <div className="main-heading-2">
+                <h4>Key Supplier Training and Engagement</h4>
+                <span className="box box1" aria-hidden="true"></span>
+                <span className="box box2" aria-hidden="true"></span>
                 <span className="box box3" aria-hidden="true"></span>
               </div>
-              <p className="sub-heading">
-                Working closely with our partners, and communities to advance
-                shared sustainability goals.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="esg-two-col partner-sec">
+        <div className="container grid-container">
+          <div className="col-span-5">
+            <div className="img-box position-relative">
+              <img src="/assets/images/sustainability-img3.png" />
+              <span className="box box1" aria-hidden="true"></span>
+              <span className="box box2" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div className="col-span-6 col-7">
+            <h2 className="mb-25">Partnerships and collaborations</h2>
+            <p className="mb-85">
+              We actively engage with leading global sustainability platforms to
+              align our operations with responsible business practices and
+              international ESG standards. Our memberships reflect our
+              commitment to shared responsibility and continuous improvement.
+            </p>
+            <h2 className="mb-25">lorem</h2>
+            <p className="mb-85">
+              We are a proud signatory of the UNGC, reinforcing our commitment
+              to its 10 principles. With this, we are joining a league of
+              responsible businesses working toward a more inclusive and
+              sustainable future. As part of this membership, we will regularly
+              report our progress against the UNGC’s focus areas, spanning human
+              rights, labour, environment, and anti-corruption.
+            </p>
+            <h2 className="mb-25">lorem</h2>
+            <p className="mb-85">
+              As part of our ongoing efforts to strengthen our water stewardship
+              practices, we are in the process of joining the CEO Water Mandate.
+              Water is a shared and finite resource — one that is critical not
+              only to our manufacturing operations, but also to the communities
+              and ecosystems around us. Through this platform, we aim to
+              collaborate with global peers to advance sustainable water
+              strategies, reduce water-related risks, and contribute
+              meaningfully to community water resilience.
+            </p>
+            <h2 className="mb-25">lorem</h2>
+            <p className="mb-0">
+              We are in the process of obtaining PSCI membership, as a natural
+              extension of our commitment to responsible and ethical supply
+              chain practices. Our relentless focus on ethics, quality, safety,
+              and transparency has positioned us well to adopt and implement the
+              PSCI principles. As we formalise our participation, we aim to
+              deepen collaboration with industry peers and partners, further
+              strengthening our supplier engagement approach and driving ESG
+              performance across the value chain.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="policies">
+        <div className="container">
+          <h2 className="title text-center mx-auto">ESG policies</h2>
+
+          <div className="row mx-auto">
+            <div className="col-12 col-lg-6">
+              <p className="description">
+                The Matrix ESG policies reflect our commitment to sustainable,
+                ethical, and responsible business practices. Aligned with global
+                standards, they form a foundation for driving long-term value
+                while creating a positive impact on the environment and society.
+              </p>
+              <p className="description fw-medium mb-0">
+                Click link to download PDF
               </p>
             </div>
-            <div className="col-12">
-              <div className="main-heading position-relative">
-                <h3>Key Supplier Training and Engagement</h3>
-                <span className="box" aria-hidden="true"></span>
+            <div className="col-12 col-lg-6 px-0">
+              <div className="row mx-auto links-row">
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>Code of Business Conduct<br/> and Ethics Policy</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>Environmental <br/> Stewardship Policy</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>Whistle blower Policy</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>EHS Policy</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>Board Diversity Policy</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>Biodiversity Policy</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>Sustainable Procurement Policy</span>
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="#">
+                    <div className="download-link">
+                      <span>Supplier Code of Conduct</span>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
