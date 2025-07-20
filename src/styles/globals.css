@@ -241,7 +241,7 @@ p {
   font-size: 1rem;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   p {
     font-size: 1.18rem;
   }
@@ -308,29 +308,32 @@ a {
   color: var(--color-white);
 }
 
-.link-white, .link-text {
-  position: relative; 
+.link-white,
+.link-text {
+  position: relative;
   display: inline-block;
 }
 
-.link-white, .link-text:after {
+.link-white,
+.link-text:after {
   content: "";
   position: absolute;
   left: 0;
   bottom: -2px;
   height: 1px;
   background-color: #ffffff;
-  width: 0; 
-  transition: width 0.25s cubic-bezier(.215, .61, .355, 1);
+  width: 0;
+  transition: width 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-.link-white:hover:after ,.link-text:hover:after {
-  width: 100%; 
+.link-white:hover:after,
+.link-text:hover:after {
+  width: 100%;
 }
 
 .link-default {
-  position: relative; 
-  display: inline-block; 
+  position: relative;
+  display: inline-block;
 }
 
 .link-default:after {
@@ -341,13 +344,12 @@ a {
   height: 1px;
   background-color: var(--color-primary);
   width: 0; /* Initially, the width is 0 */
-  transition: width 0.25s cubic-bezier(.215, .61, .355, 1);
+  transition: width 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .link-default:hover:after {
-  width: 100%; 
+  width: 100%;
 }
-
 
 /* Utility Classes */
 
@@ -1186,7 +1188,6 @@ a {
 }
 
 @media screen and (max-width: 575px) {
-
   .mg-bottom-large {
     margin-bottom: 30px;
   }
@@ -2756,8 +2757,19 @@ a {
   padding-block: 80px;
 }
 
-.esg-two-col {
+/* .esg-two-col {
   padding-block: 3rem;
+  } */
+@media screen and (max-width: 1270px) {
+  .esg-two-col .container {
+    max-width: 1600px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .esg-two-col .container {
+    width: 86%;
+  }
 }
 
 .esg-two-col .col-7 {
@@ -2771,9 +2783,13 @@ a {
   order: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+  .esg-two-col .col-span-5,
+  .esg-two-col .col-span-6 {
+    grid-column: span 12;
+  }
   .esg-two-col .col-7 {
-    grid-column: 1 / 12;
+    grid-column: span 12;
   }
   .esg-order1 {
     order: 2;
@@ -2785,10 +2801,11 @@ a {
 
 .esg-two-col-card-item h3 {
   color: #f04f3f;
-  font-size: 24px;
-  margin-bottom: 12px;
-  font-weight: 500;
-  padding-left: 12px;
+  font-size: 25px;
+  line-height: 38px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  padding-left: 18px;
 }
 
 .esg-two-col-card-item {
@@ -2816,8 +2833,15 @@ a {
   background-color: #bfb4f0;
 }
 
-.esg-visually-box1 {
+.esg-visually-box3 {
   background-color: #f77c3e;
+}
+
+@media screen and (max-width: 576px) {
+  .esg-two-col-card-item h3 {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .leadership-name-designation h4 {

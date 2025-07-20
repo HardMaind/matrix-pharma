@@ -18,9 +18,26 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+.ms-20 {
+  margin-left: 20px;
+}
 .mb-20 {
   margin-bottom: 20px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mb-70 {
+  margin-bottom: 70px;
+}
+.mw-700 {
+  max-width: 700px;
+}
+.mw-720 {
+  max-width: 720px;
 }
 
 .position-relative {
@@ -28,7 +45,6 @@
 }
 
 /* ESG page css */
-
 .esg {
   padding: 121px 0px 183px;
 }
@@ -84,8 +100,6 @@
     margin-bottom: 70px;
   }
   .esg-vision .description {
-    font-size: 18px;
-    line-height: 26px;
     margin-bottom: 70px;
   }
 }
@@ -168,7 +182,7 @@
     margin-bottom: 16px;
   }
   .esg-vision .row .sub-heading {
-    max-width: 420px;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 776px) {
@@ -182,6 +196,354 @@
     height: 40px;
     bottom: 10px;
     left: -14px;
+  }
+  .esg-vision .row .sub-heading {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .esg-vision .row {
+    gap: 40px;
+  }
+}
+
+/* resource management */
+.resource-management {
+  position: relative;
+  padding: 126px 0px 197px;
+}
+
+.resource-management .main-box .box,
+.resource-management .img-box .box,
+.waste-management .img-box .box {
+  display: inline-block;
+  position: absolute;
+  opacity: 0.25;
+  z-index: 0;
+}
+.resource-management .main-box .box.box1 {
+  width: 84px;
+  height: 84px;
+  top: 0px;
+  right: 0px;
+  background: #bfb4f0;
+}
+.resource-management .main-box .box.box2 {
+  width: 55px;
+  height: 55px;
+  top: 84px;
+  right: 84px;
+  background: #f77c3e;
+}
+.resource-management .main-box .box.box3 {
+  width: 55px;
+  height: 55px;
+  top: 139px;
+  right: 29px;
+  background: #ffa729;
+}
+.resource-management .img-box {
+  margin-bottom: 130px;
+}
+.resource-management .img-box .box.box1 {
+  width: 75px;
+  height: 75px;
+  bottom: -75px;
+  left: -75px;
+  background: #ffa729;
+}
+.resource-management .img-box .box.box2 {
+  width: 55px;
+  height: 55px;
+  bottom: -130px;
+  left: -130px;
+  background: #f77c3e;
+}
+.resource-management .img-box .box.box3 {
+  width: 55px;
+  height: 55px;
+  bottom: -185px;
+  left: -75px;
+  background: #bfb4f0;
+}
+
+.resource-management p {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+@media screen and (max-width: 1270px) {
+  .resource-management .main-box .box.box1 {
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+  }
+  .resource-management .main-box .box.box2 {
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    right: 50px;
+  }
+  .resource-management .main-box .box.box3 {
+    width: 30px;
+    height: 30px;
+    top: 80px;
+    right: 20px;
+  }
+
+  .resource-management .img-box .box.box1 {
+    width: 50px;
+    height: 50px;
+    bottom: -50px;
+    left: -50px;
+  }
+  .resource-management .img-box .box.box2 {
+    width: 30px;
+    height: 30px;
+    bottom: -80px;
+    left: -80px;
+  }
+  .resource-management .img-box .box.box3 {
+    width: 30px;
+    height: 30px;
+    bottom: -110px;
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .resource-management {
+    padding: 60px 0px;
+  }
+  .resource-management .img-box {
+    margin-bottom: 40px;
+  }
+  .resource-management .main-box .box,
+  .resource-management .img-box .box {
+    display: none;
+  }
+}
+
+/* waste management */
+.waste-management {
+  margin-bottom: 185px;
+}
+.waste-management .img-box .box.box1 {
+  width: 55px;
+  height: 55px;
+  top: -55px;
+  right: -55px;
+  background: #bfb4f0;
+}
+.waste-management .img-box .box.box2 {
+  width: 55px;
+  height: 55px;
+  top: -110px;
+  right: -110px;
+  background: #f77c3e;
+}
+.waste-management .img-box .box.box3 {
+  width: 75px;
+  height: 75px;
+  top: -185px;
+  right: -55px;
+  background: #ffa729;
+}
+.waste-management p {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+@media screen and (max-width: 1270px) {
+  .waste-management .img-box .box.box1 {
+    width: 40px;
+    height: 40px;
+    top: -40px;
+    right: -40px;
+  }
+  .waste-management .img-box .box.box2 {
+    width: 40px;
+    height: 40px;
+    top: -80px;
+    right: -80px;
+  }
+  .waste-management .img-box .box.box3 {
+    width: 60px;
+    height: 60px;
+    top: -140px;
+    right: -40px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .waste-management {
+    margin-bottom: 60px;
+  }
+  .waste-management .img-box {
+    margin-bottom: 40px;
+  }
+  .waste-management .img-box .box {
+    display: none;
+  }
+}
+
+/* renewable section */
+.renewable-sec {
+  margin-bottom: 160px;
+}
+.renewable-sec .img-box {
+  margin-bottom: 130px;
+}
+.renewable-sec .img-box .box {
+  display: inline-block;
+  position: absolute;
+  opacity: 0.25;
+  z-index: 0;
+}
+.renewable-sec .img-box .box.box1 {
+  width: 44px;
+  height: 44px;
+  top: -44px;
+  right: 0px;
+  background: #ffa729;
+}
+.renewable-sec .img-box .box.box2 {
+  width: 70px;
+  height: 70px;
+  top: -114px;
+  right: -70px;
+  background: #bfb4f0;
+}
+.renewable-sec .img-box .box.box3 {
+  width: 70px;
+  height: 70px;
+  bottom: -70px;
+  left: 0px;
+  background: #bfb4f0;
+}
+.renewable-sec .img-box .box.box4 {
+  width: 44px;
+  height: 44px;
+  bottom: -114px;
+  left: 70px;
+  background: #ffa729;
+}
+.renewable-sec p {
+  font-size: 18px;
+  line-height: 34px;
+}
+.renewable-sec .fw-medium {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 815px) {
+  .renewable-sec {
+    margin-bottom: 60px;
+  }
+  .renewable-sec .img-box .box {
+    display: none;
+  }
+  .renewable-sec .img-box {
+    margin-bottom: 60px;
+  }
+  .renewable-sec p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+/* workplace section */
+.workplace-sec {
+  margin-bottom: 157px;
+}
+.workplace-sec .img-box .box {
+  display: inline-block;
+  position: absolute;
+  opacity: 0.25;
+  z-index: 0;
+}
+.workplace-sec .img-box .box.box1 {
+  width: 70px;
+  height: 70px;
+  top: -70px;
+  right: -70px;
+  background: #f77c3e;
+}
+.workplace-sec .img-box .box.box2 {
+  width: 55px;
+  height: 55px;
+  top: -125px;
+  right: -125px;
+  background: #bfb4f0;
+}
+.workplace-sec .img-box .box.box3 {
+  width: 60px;
+  height: 60px;
+  top: -185px;
+  right: -70px;
+  background: #f77c3e;
+}
+.workplace-sec .img-box .box.box4 {
+  width: 70px;
+  height: 70px;
+  top: 500px;
+  right: -70px;
+  background: #f77c3e;
+}
+.workplace-sec .img-box .box.box5 {
+  width: 55px;
+  height: 55px;
+  top: 445px;
+  right: -125px;
+  background: #ffa729;
+}
+.workplace-sec p {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+@media screen and (max-width: 1270px) {
+  .workplace-sec .img-box .box.box1 {
+    width: 40px;
+    height: 40px;
+    top: -40px;
+    right: -40px;
+  }
+  .workplace-sec .img-box .box.box2 {
+    width: 40px;
+    height: 40px;
+    top: -80px;
+    right: -80px;
+  }
+  .workplace-sec .img-box .box.box3 {
+    width: 60px;
+    height: 60px;
+    top: -140px;
+    right: -40px;
+  }
+  .workplace-sec .img-box .box.box4 {
+    width: 40px;
+    height: 40px;
+    top: 300px;
+    right: -40px;
+  }
+  .workplace-sec .img-box .box.box5 {
+    width: 40px;
+    height: 40px;
+    top: 260px;
+    right: -80px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .workplace-sec {
+    margin-bottom: 60px;
+  }
+  .workplace-sec .img-box .box {
+    display: none;
+  }
+  .workplace-sec .img-box {
+    margin-bottom: 60px;
   }
 }
 
@@ -495,6 +857,14 @@
   .supplier-vision .row .box {
     display: none;
   }
+  .supplier-vision .main-heading h4,
+  .supplier-vision .main-heading-2 h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .supplier-vision .description {
+    margin-bottom: 60px;
+  }
 }
 
 /* partnerships section */
@@ -530,6 +900,8 @@
 }
 .partner-sec p {
   max-width: 728px;
+  font-size: 18px;
+  line-height: 34px;
 }
 
 @media screen and (max-width: 992px) {
@@ -638,5 +1010,38 @@
   font-weight: 600;
   letter-spacing: 0px;
   padding-bottom: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-bottom: 2px solid #f04f3f;
+}
+
+@media screen and (max-width: 576px) {
+  .resource-management .main-box .box,
+  .resource-management .img-box .box,
+  .waste-management .img-box .box {
+    display: none;
+  }
+
+  .mb-50 {
+    margin-bottom: 30px;
+  }
+  .mb-60 {
+    margin-bottom: 30px;
+  }
+  .mb-70 {
+    margin-bottom: 30px;
+  }
+  .esg-vision .description,
+  .esg-vision .row .sub-heading,
+  .waste-management p,
+  .resource-management p,
+  .renewable-sec p,
+  .workplace-sec p,
+  .supplier-vision .description,
+  .supplier-vision .supplier-card .item-list p,
+  .partner-sec p {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
