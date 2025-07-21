@@ -411,7 +411,7 @@ const sustainability = ({ children }) => {
         <div className="container grid-container">
           <div className="col-span-6">
             <div className="img-box position-relative">
-              <img src="/assets/images/partnerships-img.png" />
+              <img src="/assets/images/partnerships-img.jpg" />
               <span className="box box1" aria-hidden="true"></span>
               <span className="box box2" aria-hidden="true"></span>
             </div>
@@ -424,10 +424,7 @@ const sustainability = ({ children }) => {
               international ESG standards. Our memberships reflect our
               commitment to shared responsibility and continuous improvement.
             </p>
-            <img
-              src="/assets/images/partnerships-logo-img.png"
-              className="mb-25"
-            />
+            <img src="/assets/images/UNGC.png" className="mb-25 partner-logo" />
             <p className="mb-85">
               We are a proud signatory of the UNGC, reinforcing our commitment
               to its 10 principles. With this, we are joining a league of
@@ -437,8 +434,8 @@ const sustainability = ({ children }) => {
               rights, labour, environment, and anti-corruption.
             </p>
             <img
-              src="/assets/images/partnerships-logo-img.png"
-              className="mb-25"
+              src="/assets/images/CEO-Water-Mandate.png"
+              className="mb-25 partner-logo"
             />
             <p className="mb-85">
               As part of our ongoing efforts to strengthen our water stewardship
@@ -450,10 +447,7 @@ const sustainability = ({ children }) => {
               strategies, reduce water-related risks, and contribute
               meaningfully to community water resilience.
             </p>
-            <img
-              src="/assets/images/partnerships-logo-img.png"
-              className="mb-25"
-            />
+            <img src="/assets/images/psci.png" className="mb-25 partner-logo" />
             <p className="mb-0">
               We are in the process of obtaining PSCI membership, as a natural
               extension of our commitment to responsible and ethical supply

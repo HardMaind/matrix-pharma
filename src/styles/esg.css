@@ -871,6 +871,10 @@
 .partner-sec {
   padding: 119px 0 204px;
 }
+.partner-sec .img-box img {
+  max-width: 776px;
+  width: 100%;
+}
 .partner-sec .img-box .box {
   display: inline-block;
   position: absolute;
@@ -902,6 +906,10 @@
   max-width: 728px;
   font-size: 18px;
   line-height: 34px;
+}
+.partner-sec .partner-logo {
+  max-width: 260px;
+  width: 100%;
 }
 
 @media screen and (max-width: 992px) {
