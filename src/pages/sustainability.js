@@ -487,7 +487,7 @@ const sustainability = ({ children }) => {
                         Code of Business Conduct
                         <br /> and Ethics Policy
                       </span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
@@ -497,7 +497,7 @@ const sustainability = ({ children }) => {
                       <span>
                         Environmental <br /> Stewardship Policy
                       </span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
@@ -505,7 +505,7 @@ const sustainability = ({ children }) => {
                   <a href="#">
                     <div className="download-link">
                       <span>Whistle blower Policy</span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
@@ -513,7 +513,7 @@ const sustainability = ({ children }) => {
                   <a href="#">
                     <div className="download-link">
                       <span>EHS Policy</span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
@@ -521,7 +521,7 @@ const sustainability = ({ children }) => {
                   <a href="#">
                     <div className="download-link">
                       <span>Board Diversity Policy</span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
@@ -529,7 +529,7 @@ const sustainability = ({ children }) => {
                   <a href="#">
                     <div className="download-link">
                       <span>Biodiversity Policy</span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
@@ -537,7 +537,7 @@ const sustainability = ({ children }) => {
                   <a href="#">
                     <div className="download-link">
                       <span>Sustainable Procurement Policy</span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
@@ -545,7 +545,7 @@ const sustainability = ({ children }) => {
                   <a href="#">
                     <div className="download-link">
                       <span>Supplier Code of Conduct</span>
-                      <img src="/assets/images/download.png" />
+                      <img src="/assets/images/download.svg" />
                     </div>
                   </a>
                 </div>
