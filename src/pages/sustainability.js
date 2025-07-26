@@ -16,12 +16,12 @@ const sustainability = ({ children }) => {
         <div className="container grid-container">
           <div className="col-span-6">
             <h2>
-              Growing responsibly <br></br>to build a sustainable future
-              <br></br>for everyone.
+              Growing responsibly <br></br>by building a sustainable future
+              <br></br> for everyone.
             </h2>
           </div>
           <div className="col-span-6 sustainability-matrix">
-            <p className="mb-0">
+            <p>
               At Matrix Pharma Corp, sustainability is not just a goal, but the
               very core of our operations. Guided by our strong legacy of
               innovation and excellence, we are committed to charting a
@@ -101,7 +101,7 @@ const sustainability = ({ children }) => {
         <div className="container grid-container">
           <div className="col-span-5">
             <div className="img-box position-relative">
-              <img src="/assets/images/sustainability-img1.png" />
+              <img src="/assets/images/sustainability-img1.jpg" />
               <span className="box box1" aria-hidden="true"></span>
               <span className="box box2" aria-hidden="true"></span>
               <span className="box box3" aria-hidden="true"></span>
@@ -120,7 +120,7 @@ const sustainability = ({ children }) => {
               <div className="esg-two-col-card-item">
                 <h3 className="font-ec">Green chemistry principles</h3>
                 <span className="esg-visually-box1" aria-hidden="true"></span>
-                <p className="mb-50 ms-20 mw-720">
+                <p className="mb-70 ms-20 mw-720">
                   Our R&D teams apply green chemistry principles to minimise use
                   of hazardous substances, and optimise reaction conditions to
                   reduce energy consumption and waste generation. This approach
@@ -167,7 +167,7 @@ const sustainability = ({ children }) => {
               <div className="esg-two-col-card-item">
                 <h3 className="font-ec">Segregation and recycling</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
-                <p className="mg-bottom-large ms-20 mb-50">
+                <p className="mg-bottom-large ms-20 mb-70">
                   We segregate hazardous and non-hazardous waste at the source,
                   ensuring materials are either recycled or disposed of safely.
                   By focusing on waste reduction and recycling, we aim to
@@ -178,7 +178,7 @@ const sustainability = ({ children }) => {
               <div className="esg-two-col-card-item">
                 <h3 className="font-ec">Waste-to-energy initiatives</h3>
                 <span className="esg-visually-box3" aria-hidden="true"></span>
-                <p className="ms-20 mb-0">
+                <p className="ms-20 mb-50">
                   We explore innovative solutions to convert waste into energy,
                   reducing our reliance on conventional energy sources and
                   lowering our carbon footprint.
@@ -188,7 +188,7 @@ const sustainability = ({ children }) => {
           </div>
           <div className="col-span-5 col-7 esg-order2">
             <div className="img-box position-relative">
-              <img src="/assets/images/sustainability-img2.png" />
+              <img src="/assets/images/sustainability-img2.jpg" />
               <span className="box box1" aria-hidden="true"></span>
               <span className="box box2" aria-hidden="true"></span>
               <span className="box box3" aria-hidden="true"></span>
@@ -258,7 +258,7 @@ const sustainability = ({ children }) => {
         <div className="container grid-container">
           <div className="col-span-5 esg-order1">
             <h2 className="mg-bottom-large">Workplace health and safety</h2>
-            <p className="mb-70">
+            <p className="mb-90">
               At Matrix Pharma Corp, we proactively safeguard our workforce
               through integrated risk assessments, a strengthened incident
               reporting system, and continuous process improvements.
@@ -267,7 +267,7 @@ const sustainability = ({ children }) => {
               <div className="esg-two-col-card-item">
                 <h3 className="font-ec">Risk prevention</h3>
                 <span className="esg-visually-box1" aria-hidden="true"></span>
-                <p className="ms-20 mb-50">
+                <p className="ms-20 mb-90">
                   Hazards are identified early through thorough risk
                   assessments, allowing us to implement controls that mitigate
                   potential harm.
@@ -276,7 +276,7 @@ const sustainability = ({ children }) => {
               <div className="esg-two-col-card-item">
                 <h3 className="font-ec">Incident reporting and prevention</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
-                <p className="ms-20 mb-50">
+                <p className="ms-20 mb-90">
                   Our Incident Prevention Opportunity program tracks
                   near-misses, enabling a proactive approach to refining safety
                   measures and preventing future risks.
@@ -285,7 +285,7 @@ const sustainability = ({ children }) => {
               <div className="esg-two-col-card-item">
                 <h3 className="font-ec">Engagement and awareness</h3>
                 <span className="esg-visually-box3" aria-hidden="true"></span>
-                <p className="ms-20 mb-50">
+                <p className="ms-20 mb-90">
                   Our monthly safety campaigns empower employees to recognise
                   risks and take preventive actions. A recent "Electrostatic
                   Safety Month" initiative focused on equipping production areas
@@ -295,7 +295,7 @@ const sustainability = ({ children }) => {
               <div className="esg-two-col-card-item">
                 <h3 className="font-ec">Process safety first</h3>
                 <span className="esg-visually-box2" aria-hidden="true"></span>
-                <p className="ms-20 mb-0">
+                <p className="ms-20 ">
                   Every new and existing process prioritises safety at every
                   step – from development to execution.
                 </p>
@@ -304,7 +304,7 @@ const sustainability = ({ children }) => {
           </div>
           <div className="col-span-5 col-7 esg-order2">
             <div className="img-box position-relative">
-              <img src="/assets/images/sustainability-img4.png" />
+              <img src="/assets/images/sustainability-img4.jpg" />
               <span className="box box1" aria-hidden="true"></span>
               <span className="box box2" aria-hidden="true"></span>
               <span className="box box3" aria-hidden="true"></span>
