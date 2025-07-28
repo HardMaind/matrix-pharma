@@ -481,7 +481,10 @@ const sustainability = ({ children }) => {
             <div className="col-12 col-lg-6 px-0">
               <div className="row mx-auto links-row">
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a
+                    href="/assets/policies/Code-of-Business-Conduct-and-Ethics.pdf"
+                    download
+                  >
                     <div className="download-link">
                       <span>
                         Code of Business Conduct
@@ -492,7 +495,10 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a
+                    href="/assets/policies/Environment-Stewardship-Policy.pdf"
+                    download
+                  >
                     <div className="download-link">
                       <span>
                         Environmental <br /> Stewardship Policy
@@ -502,7 +508,7 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a href="/assets/policies/Whistleblower-Policy.pdf" download>
                     <div className="download-link">
                       <span>Whistle blower Policy</span>
                       <img src="/assets/images/download.svg" />
@@ -510,7 +516,7 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a href="/assets/policies/EHS-Policy.pdf" download>
                     <div className="download-link">
                       <span>EHS Policy</span>
                       <img src="/assets/images/download.svg" />
@@ -518,7 +524,10 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a
+                    href="/assets/policies/Board-Diversity-Policy.pdf"
+                    download
+                  >
                     <div className="download-link">
                       <span>Board Diversity Policy</span>
                       <img src="/assets/images/download.svg" />
@@ -526,7 +535,7 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a href="/assets/policies/Biodiversity-Policy.pdf" download>
                     <div className="download-link">
                       <span>Biodiversity Policy</span>
                       <img src="/assets/images/download.svg" />
@@ -534,7 +543,7 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a href="/assets/policies/" download>
                     <div className="download-link">
                       <span>Sustainable Procurement Policy</span>
                       <img src="/assets/images/download.svg" />
@@ -542,9 +551,33 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="#">
+                  <a
+                    href="/assets/policies/SCOC-with-Acknowledgement.pdf"
+                    download
+                  >
                     <div className="download-link">
                       <span>Supplier Code of Conduct</span>
+                      <img src="/assets/images/download.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a
+                    href="/assets/policies/Anti-Human-Trafficking&Modern-Slavery-Policy.pdf"
+                    download
+                  >
+                    <div className="download-link">
+                      <span>
+                        Anti Human Trafficking & Modern Slavery Policy
+                      </span>
+                      <img src="/assets/images/download.svg" />
+                    </div>
+                  </a>
+                </div>
+                <div className="col-12 col-md-6">
+                  <a href="/assets/policies/POSH-Policy.pdf" download>
+                    <div className="download-link">
+                      <span>POSH Policy</span>
                       <img src="/assets/images/download.svg" />
                     </div>
                   </a>
