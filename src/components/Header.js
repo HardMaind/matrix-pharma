@@ -1,6 +1,4 @@
 'use client';
-
-import Link from 'next/link';
 import MatrixLogo from './MatrixLogo';
 import styles from '../styles/Header.module.css';
 import MenuToggle from '../components/MenuToggle';

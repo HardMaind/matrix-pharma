@@ -29,6 +29,7 @@ const HomeHero = ({ title, imgPath, videoPathDesktop, videoPathMobile }) => {
         autoPlay
         muted
         loop
+        playsInline
         poster={imgPath} // Image fallback when video fails
         onError={(e) => (e.target.style.display = "none")} // Hide video if it fails
         style={{ display: isMobile ? "none" : "block" }} // Hide desktop video on mobile
@@ -41,6 +42,7 @@ const HomeHero = ({ title, imgPath, videoPathDesktop, videoPathMobile }) => {
         autoPlay
         muted
         loop
+        playsInline
         poster={imgPath} // Image fallback when video fails
         onError={(e) => (e.target.style.display = "none")} // Hide video if it fails
         style={{ display: isMobile ? "block" : "none" }} // Show mobile video only on mobile

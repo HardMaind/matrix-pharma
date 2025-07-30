@@ -12,6 +12,7 @@ const CareerForm = () => {
 
   const [cvUploaded, setCvUploaded] = useState(false);
   const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false); // Track submission state
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +26,7 @@ const CareerForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true); // Disable the form while submitting
 
     const formDataToSend = new FormData();
     formDataToSend.append("name", formData.name);
@@ -34,16 +36,22 @@ const CareerForm = () => {
     formDataToSend.append("cv", formData.cv);
 
     try {
-      const response = await fetch("/api/sendEmail", {
+      const response = await fetch("/api/sendCareerEmail", {
         method: "POST",
         body: formDataToSend,
       });
 
       const data = await response.json();
       setMessage(data.message);
+
+      // Reset form after successful submission
+      setFormData({ name: "", location: "", email: "", phone: "", cv: null });
+      setCvUploaded(false);
     } catch (error) {
       setMessage("Something went wrong. Please try again.");
     }
+
+    setIsSubmitting(false); // Enable form again
   };
 
   return (
@@ -90,7 +98,6 @@ const CareerForm = () => {
           className={styles.inputField}
         />
 
-        {/* Hidden file input */}
         <input
           type="file"
           name="cv"
@@ -101,12 +108,13 @@ const CareerForm = () => {
           id="cvUpload"
         />
 
-        {/* Custom Upload CV Text */}
         <label htmlFor="cvUpload" className={styles.uploadCvLabel}>
           {cvUploaded ? "CV Uploaded" : "Upload CV"}
         </label>
 
-        <button type="submit" className={styles.submitButton}>Submit</button>
+        <button type="submit" className={styles.submitButton} disabled={isSubmitting}>
+          {isSubmitting ? "Submitting..." : "Submit"}
+        </button>
       </form>
     </div>
   );

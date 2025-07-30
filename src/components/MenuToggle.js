@@ -61,7 +61,7 @@ const MenuToggle = () => {
                 className="link-text"
                 onClick={closeMenu}
               >
-                About Us
+                About
               </IconLink>
             </li>
             <li>
@@ -70,12 +70,12 @@ const MenuToggle = () => {
                 className="link-text"
                 onClick={closeMenu}
               >
-                Matrix Advantages
+                Advantages
               </IconLink>
             </li>
             <li>
               <IconLink
-                href="/our-product"
+                href="/our-products"
                 className="link-text"
                 onClick={closeMenu}
               >

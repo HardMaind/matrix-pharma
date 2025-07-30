@@ -4,8 +4,6 @@
 import Layout from "../components/Layout";
 import HomeHero from "../components/HomeHero";
 import Link from "next/link";
-import Image from "next/image";
-import IconLink from "../components/IconLink";
 
 const HomePage = () => {
   return (
@@ -29,14 +27,7 @@ const HomePage = () => {
         </div>
         <div className="col-span-6 home-about-us-right">
           <p>
-            Matrix Pharma Corp, formerly a part of Viatris, is a leading global
-            provider of Active Pharmaceutical Ingredients (APIs) dedicated to
-            delivering high-quality, innovative solutions for a healthier
-            future. We are committed to building long-term partnerships with
-            leading pharmaceutical companies worldwide, driven by a shared
-            vision of improving global healthcare access and affordability.
-            Because when it comes to global health, we don’t just make
-            ingredients – we create excellence.
+          Matrix Pharma Corp is a leading global provider of Active Pharmaceutical Ingredients (APIs) dedicated to delivering high-quality, innovative solutions for a healthier future. We are committed to building long-term partnerships with leading pharmaceutical companies in over 80 countries, driven by a shared vision of improving global healthcare access and affordability. Because when it comes to global health, we don’t just make ingredients – we create excellence. 
           </p>
           <Link href="/about-us" className="link-default text-uppercase">
             About Us
@@ -72,7 +63,8 @@ const HomePage = () => {
 
       {/* Home Banner Section Start*/}
       <section className="banner-image">
-        <img src="/assets/images/home-img2.png" />
+        <img className="banner-image-home-web" src="/assets/images/home-img2.jpg" />
+        <img className="banner-image-home-mob" src="/assets/images/home-img21.webp" />
       </section>
       {/* Home banner section end*/}
 
@@ -89,7 +81,7 @@ const HomePage = () => {
                 Whatever the need, we always deliver consistent quality, on
                 time.
               </p>
-              <Link href="/our-product" className="link-default">
+              <Link href="/our-products" className="link-default">
                 DISCOVER OUR FULL PRODUCT RANGE
                 <svg width="17" height="17" viewBox="0 0 17 17">
                   <path
@@ -102,7 +94,7 @@ const HomePage = () => {
             <div className="col-span-6">
               <ul className="home-milestone-right-col">
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                     Antiretroviral
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -110,7 +102,7 @@ const HomePage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                     Antiviral
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -118,7 +110,7 @@ const HomePage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                   Antidiabetic
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -126,7 +118,7 @@ const HomePage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                   Antineoplastic
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -134,7 +126,7 @@ const HomePage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                   Antihypertensive
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -142,7 +134,7 @@ const HomePage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                   Cardiovascular
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -150,7 +142,7 @@ const HomePage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                   Central Nervous System
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -158,7 +150,7 @@ const HomePage = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/our-product" className="link-text">
+                  <Link href="/our-products" className="link-text">
                   Proton Pump Inhibitor
                     <svg width="20" height="20" viewBox="0 0 17 17">
                       <path d="M13.207 8.472l-7.854 7.854-0.707-0.707 7.146-7.146-7.146-7.148 0.707-0.707 7.854 7.854z" />
@@ -185,7 +177,7 @@ const HomePage = () => {
               greatest asset – our people – by building a safe and empowering
               workplace.
             </p>
-            <Link href="/" className="link-default flex flex-center flex-gap-m">
+            <Link href="/sustainability" className="link-default flex flex-center flex-gap-m">
               LEARN MORE
               <svg width="17" height="17" viewBox="0 0 17 17">
                 <path

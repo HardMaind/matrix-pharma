@@ -33,6 +33,7 @@
   
   .inputField::placeholder {
     color: rgba(255, 255, 255, 0.7);
+    font-family: "EuclidCircular", sans-serif;
   }
   
   .inputField:focus {
@@ -54,6 +55,7 @@
     margin-bottom: 20px;
     transition: color 0.3s;
     text-align: right;
+    font-family: "EuclidCircular", sans-serif;
   }
   
   .uploadCvLabel:hover {
@@ -77,6 +79,7 @@
     transition: background 0.3s, color 0.3s;
     border-radius: 0;
     width:min-content;
+    text-transform: uppercase;
   }
   
   .submitButton:hover {

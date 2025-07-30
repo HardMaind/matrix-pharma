@@ -7,9 +7,11 @@ const FormContactus = () => {
     company: "",
     email: "",
     phone: "",
+    message: "",
   });
 
   const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,24 +20,23 @@ const FormContactus = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const formDataToSend = new FormData();
-    formDataToSend.append("name", formData.name);
-    formDataToSend.append("company", formData.company);
-    formDataToSend.append("email", formData.email);
-    formDataToSend.append("phone", formData.phone);
+    setIsSubmitting(true);
 
     try {
       const response = await fetch("/api/sendContactEmail", {
         method: "POST",
-        body: formDataToSend,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
       });
 
       const data = await response.json();
       setMessage(data.message);
+      setFormData({ name: "", company: "", email: "", phone: "", message: "" }); // Clear form
     } catch (error) {
       setMessage("Something went wrong. Please try again.");
     }
+
+    setIsSubmitting(false);
   };
 
   return (
@@ -82,7 +83,18 @@ const FormContactus = () => {
           className={styles.inputField}
         />
 
-        <button type="submit" className={styles.submitButton}>Submit</button>
+        <textarea
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          placeholder="Your Message"
+          required
+          className={styles.textareaField}
+        ></textarea>
+
+        <button type="submit" className={styles.submitButton} disabled={isSubmitting}>
+          {isSubmitting ? "Submitting..." : "Submit"}
+        </button>
       </form>
     </div>
   );
