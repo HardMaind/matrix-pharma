@@ -38,57 +38,14 @@ const sustainability = ({ children }) => {
       </section>
 
       {/* ESG Vision start */}
-      <section className="esg-vision">
-        <div className="container">
-          <div className="d-flex align-items-center justify-content-center">
-            <img src="/assets/images/esg-tree.svg" className="img-fluid" />
-          </div>
-          <p className="title text-center mb-20">ESG Vision</p>
-          <p className="sub-text text-center mx-auto">
-            “To create a net positive impact across people, planet, and product
-            by building on our legacy of responsible growth and sustainability.”
-          </p>
-
-          <p className="description text-center mx-auto">
-            Our ESG vision defines the future we aim to build for our business,
-            employees, communities, and the planet. To bring this vision to
-            life, we are shaping an ESG strategy anchored in three core pillars:
-          </p>
-
-          <div className="row mx-auto">
-            <div className="col-12 col-lg-4">
-              <div className="position-relative">
-                <h3 className="font-ec heading">Environmental Stewardship</h3>
-                <span className="box box1" aria-hidden="true"></span>
-              </div>
-              <p className="sub-heading">
-                Reducing our ecological footprint through emissions reduction,
-                water stewardship, circular practices, and biodiversity
-                conservation.
-              </p>
-            </div>
-            <div className="col-12 col-lg-4">
-              <div className="position-relative">
-                <h3 className="font-ec heading">Purposeful Governance</h3>
-                <span className="box box2" aria-hidden="true"></span>
-              </div>
-              <p className="sub-heading">
-                Embedding ethics, transparency, and accountability in our
-                operations.
-              </p>
-            </div>
-            <div className="col-12 col-lg-4">
-              <div className="position-relative">
-                <h3 className="font-ec heading">Ecosystem Collaboration</h3>
-                <span className="box box3" aria-hidden="true"></span>
-              </div>
-              <p className="sub-heading">
-                Working closely with our partners, and communities to advance
-                shared sustainability goals.
-              </p>
-            </div>
-          </div>
-        </div>
+      <section>
+        <picture>
+          <img 
+            src="/assets/images/sustainibilty/matrix-pharma-cor-esg-page-2.jpg" 
+            alt="ESG Vision - Matrix Pharma Corp"
+            style={{ width: '100vw', height: 'auto', display: 'block' }}
+          />
+        </picture>
       </section>
       {/* ESG Vision end */}
 
@@ -317,97 +274,23 @@ const sustainability = ({ children }) => {
       </section>
       {/* Sustanibility two column end */}
 
-      <section className="supplier-vision">
-        <div className="container">
-          <h2 className="title text-center mx-auto">Supplier engagement</h2>
-
-          <p className="description text-center mx-auto">
-            We firmly believe that our suppliers are strategic partners in our
-            growth and impact journey. They have a key role in upholding the
-            quality, reliability, and values our business stands for. In line
-            with this belief, we are committed to building resilient and
-            responsible supplier partnerships by embedding sustainability across
-            our procurement practices.
-            <br />
-            <br />
-            To put our commitment into practice, we have designed a
-            comprehensive supplier engagement program. Through this program, we
-            aim to offer the training, and support needed to drive continuous
-            improvement. Suppliers who actively progress on ESG performance will
-            be integral to our long-term sourcing decisions.
-          </p>
-
-          <div className="row mx-auto">
-            <div className="col-12">
-              <div className="main-heading">
-                <h4>
-                  Resilient, Responsible and Strategic Supplier Relationships.
-                </h4>
-                <span className="box box1" aria-hidden="true"></span>
-                <span className="box box2" aria-hidden="true"></span>
-              </div>
-            </div>
-
-            <div className="col-12 col-lg-4">
-              <div className="supplier-card card1">
-                <span className="box box1" aria-hidden="true"></span>
-                <span className="box box2" aria-hidden="true"></span>
-                <span className="box box3" aria-hidden="true"></span>
-                <span className="box box4" aria-hidden="true"></span>
-                <span className="box box5" aria-hidden="true"></span>
-                <h4 className="font-ec heading">
-                  Foundational <br /> Governance
-                </h4>
-                <div className="item-list">
-                  <p>1. Supplier Code of Conduct. </p>
-                  <p>2. Sustainable Procurement Policy.</p>
-                  <p>3. Supplier grievance mechanism.</p>
-                  <p>4. Supplier risk prioritization.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-lg-4">
-              <div className="supplier-card">
-                <h4 className="font-ec heading">
-                  ESG Due Diligence and Inclusion Practices
-                </h4>
-                <div className="item-list">
-                  <p>1. Supplier ESG screening.</p>
-                  <p>2. Supplier ESG assessments and audits.</p>
-                  <p>3. Enhancing local procurement and supplier diversity.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12 col-lg-4">
-              <div className="supplier-card card3">
-                <span className="box box1" aria-hidden="true"></span>
-                <span className="box box2" aria-hidden="true"></span>
-                <span className="box box3" aria-hidden="true"></span>
-                <h4 className="font-ec heading">
-                  Performance Management and Capacity Building
-                </h4>
-                <div className="item-list">
-                  <p>1. Supplier ESG score-card.</p>
-                  <p>2. Supplier recognition program.</p>
-                  <p>3. Supplier support program.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-12">
-              <div className="main-heading-2">
-                <h4>Key Supplier Training and Engagement</h4>
-                <span className="box box1" aria-hidden="true"></span>
-                <span className="box box2" aria-hidden="true"></span>
-                <span className="box box3" aria-hidden="true"></span>
-              </div>
-            </div>
-          </div>
-        </div>
+      {/* Supplier vision start */}
+      <section>
+      <picture>
+          <source 
+            media="(max-width: 768px)" 
+            srcSet="/assets/images/sustainibilty/matrix-pharma-corp-esg-page-1-mobile.jpg"
+          />
+          <img 
+            src="/assets/images/sustainibilty/matrix-pharma-corp-esg-page-1-desktop.jpg" 
+            alt="ESG Vision - Matrix Pharma Corp"
+            style={{ width: '100vw', height: 'auto', display: 'block' }}
+          />
+        </picture>
       </section>
+      {/* Supplier vision end */}
 
+      {/* Partner section start */}
       <section className="esg-two-col partner-sec">
         <div className="container grid-container">
           <div className="col-span-6">
@@ -462,7 +345,9 @@ const sustainability = ({ children }) => {
           </div>
         </div>
       </section>
+      {/* Partner section end */}
 
+      {/* Policies section start */}
       <section className="policies">
         <div className="container">
           <h2 className="title text-center mx-auto">ESG policies</h2>
@@ -588,6 +473,7 @@ const sustainability = ({ children }) => {
           </div>
         </div>
       </section>
+      {/* Policies section end */}
     </Layout>
   );
 };
