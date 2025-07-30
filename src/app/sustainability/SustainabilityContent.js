@@ -210,7 +210,7 @@ const sustainability = ({ children }) => {
             </div>
           </div>
           <div className="col-span-6 col-7">
-            <h2 className="mg-bottom-large">
+            <h2 className="mg-bottom-large mb-20">
               Renewable solar energy initiative
             </h2>
             <p className="mw-720 mb-70">
@@ -220,14 +220,14 @@ const sustainability = ({ children }) => {
               gas emissions. This transition strengthens our pledge to a
               cleaner, climate-resilient future.
             </p>
-            <h2 className="mg-bottom-large">Sustainable packaging</h2>
+            <h2 className="mg-bottom-large mb-20">Sustainable packaging</h2>
             <p className="mw-720 mb-70">
               At Matrix Pharma Corp, we’re committed to minimising the
               environmental impact of our packaging materials. We continuously
               explore sustainable packaging options that are recyclable or made
               from renewable resources, reducing plastic waste.
             </p>
-            <h2 className="mg-bottom-large">Upholding standards</h2>
+            <h2 className="mg-bottom-large mb-20">Upholding standards</h2>
             <p className="mw-700 mb-20">
               Matrix Pharma Corp adheres to the highest standards of
               occupational safety, environmental protection, sustainability, and
@@ -544,7 +544,7 @@ const sustainability = ({ children }) => {
                   </a>
                 </div>
                 <div className="col-12 col-md-6">
-                  <a href="/assets/policies/" download>
+                  <a href="/assets/policies/Sustainable-Procurement-Policy.pdf" download>
                     <div className="download-link">
                       <span>Sustainable Procurement Policy</span>
                       <img src="/assets/images/download.svg" />

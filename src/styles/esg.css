@@ -1067,7 +1067,7 @@
   letter-spacing: 0px;
   padding-bottom: 13px;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
   border-bottom: 2px solid #f04f3f;
 }
@@ -1086,7 +1086,10 @@
     margin-bottom: 30px;
   }
   .mb-70 {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+  }
+  .mg-bottom-large.mb-20 {
+    margin-bottom: 16px;
   }
   .mb-90 {
     margin-bottom: 40px;
@@ -1106,8 +1109,14 @@
   .resource-management .mg-bottom-large:not(.mb-70) {
     margin-bottom: 15px;
   }
+  .renewable-sec .img-box {
+    margin-bottom: 40px;
+  }
   .partner-sec .mb-85 {
     margin-bottom: 40px;
+  }
+  .partner-sec .mb-25 {
+    margin-bottom: 16px;
   }
 }
 
